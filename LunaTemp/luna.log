@@ -1,0 +1,238 @@
+report@config:load 38.60
+Authorized using stored user info.
+report@account:authorize 15.04
+stderr: 'rm' is not recognized as an internal or external command,
+operable program or batch file.
+
+[ Warn ] $Converting Assets/ArtAndAnimationMergeMonster/Merge Master/MergeMasterOrigin/download.jpg texture. Change its format from DXT1 to "RGBA 32 bit" to speed up export
+[ Warn ] $Converting Assets/01_MergeMaster/UI&UX/Sprites/Shadow.png texture. Change its format from DXT5 to "RGBA 32 bit" to speed up export
+[ Warn ] $Converting Assets/01_MergeMaster/UI&UX/Sprites/fxMerge_r.png texture. Change its format from DXT5 to "RGBA 32 bit" to speed up export
+[ Warn ] $Converting Assets/UI/Model/MiniGame1/Texture/HS_Character_Huggy_Big_Small_model.jpg texture. Change its format from DXT1 to "RGBA 32 bit" to speed up export
+[ Warn ] $Converting Assets/01_MergeMaster/UI&UX/Models/Mommy/texture_longleg.png texture. Change its format from DXT1 to "RGBA 32 bit" to speed up export
+[ Warn ] $Converting Assets/01_MergeMaster/UI&UX/Sprites/YellowBtn.png texture. Change its format from DXT5 to "RGBA 32 bit" to speed up export
+Exporting assets from Unity....................
+[ Stage1 ] Assets exported from Unity and staged for further processing
+report@unity:export 17153.30
+Using Z:/LunaPLY/MergeHyperCat/Assets/Merge Monster - Upgrading Game/Asset/loading/BRLNSDB.TTF file to generate an atlas for BRLNSDB[37156] font
+  Using alphabet  §1234567890-=qwertyuiop[]asdfghjkl;'\`zxcvbnm,./±!@#$%^&*()_+QWERTYUIOP{}ASDFGHJKL:"|~ZXCVBNM<>?
+Combined 97 glyphs into bitmap texture at Z:/LunaPLY/MergeHyperCat/LunaTemp/stage1/tmp/fonts/BRLNSDB-37156/output_0.png (60kb)
+Resources:
+{"unity.preloader.icon":"resources/unity.preloader.icon.png"}
+report@assets:stage2 2885.43
+report@assets:stage3 472.27
+[ Stage2 ] Assets postprocessed and bundled successfully
+report@code:compose 421.52
+report@config:unity 0.27
+Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+
+Build started 5/25/2022 11:23:06 AM.
+
+Project "E:\LunaDownload\3.4.1\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj" on node 1 (Rebuild target(s)).
+
+CoreClean:
+  Deleting file "E:\LunaDownload\3.4.1\pipeline\templates\LunaCompiler\Scripts\bin\Debug\UnityScriptsCompiler.dll".
+
+  Deleting file "E:\LunaDownload\3.4.1\pipeline\templates\LunaCompiler\Scripts\bin\Debug\UnityScriptsCompiler.pdb".
+
+  Deleting file "E:\LunaDownload\3.4.1\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.dll".
+
+  Deleting file "E:\LunaDownload\3.4.1\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.Html5.dll".
+
+  Deleting file "E:\LunaDownload\3.4.1\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.WebGL.dll".
+
+  Deleting file "E:\LunaDownload\3.4.1\pipeline\templates\LunaCompiler\Scripts\bin\Debug\DOTween.dll".
+
+  Deleting file "E:\LunaDownload\3.4.1\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Newtonsoft.Json.dll".
+
+  Deleting file "E:\LunaDownload\3.4.1\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.Core.dll".
+
+  Deleting file "E:\LunaDownload\3.4.1\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.dom.dll".
+
+  Deleting file "E:\LunaDownload\3.4.1\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.es5.dll".
+
+  Deleting file "E:\LunaDownload\3.4.1\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.scripthost.dll".
+
+  Deleting file "E:\LunaDownload\3.4.1\pipeline\templates\LunaCompiler\Scripts\bin\Debug\UnityEngine.dll".
+
+  Deleting file "E:\LunaDownload\3.4.1\pipeline\templates\LunaCompiler\Scripts\bin\Debug\UnityEngine.UI.dll".
+
+  Deleting file "E:\LunaDownload\3.4.1\pipeline\templates\LunaCompiler\Scripts\bin\Debug\UnityEngine.UniversalRenderPipeline.dll".
+
+  Deleting file "E:\LunaDownload\3.4.1\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.xml".
+
+  Deleting file "E:\LunaDownload\3.4.1\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.Html5.xml".
+
+  Deleting file "E:\LunaDownload\3.4.1\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.WebGL.xml".
+
+  Deleting file "E:\LunaDownload\3.4.1\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Newtonsoft.Json.xml".
+
+  Deleting file "E:\LunaDownload\3.4.1\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.Core.xml".
+
+  Deleting file "E:\LunaDownload\3.4.1\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.dom.xml".
+
+  Deleting file "E:\LunaDownload\3.4.1\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.es5.xml".
+
+  Deleting file "E:\LunaDownload\3.4.1\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.scripthost.xml".
+
+  Deleting file "E:\LunaDownload\3.4.1\pipeline\templates\LunaCompiler\Scripts\obj\Debug\Scripts.csproj.AssemblyReference.cache".
+
+  Deleting file "E:\LunaDownload\3.4.1\pipeline\templates\LunaCompiler\Scripts\obj\Debug\Scripts.csproj.CoreCompileInputs.cache".
+
+  Deleting file "E:\LunaDownload\3.4.1\pipeline\templates\LunaCompiler\Scripts\obj\Debug\Scripts.csproj.CopyComplete".
+
+  Deleting file "E:\LunaDownload\3.4.1\pipeline\templates\LunaCompiler\Scripts\obj\Debug\UnityScriptsCompiler.dll".
+
+  Deleting file "E:\LunaDownload\3.4.1\pipeline\templates\LunaCompiler\Scripts\obj\Debug\UnityScriptsCompiler.pdb".
+
+GenerateTargetFrameworkMonikerAttribute:
+Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+
+CoreCompile:
+
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Roslyn\csc.exe /noconfig /nowarn:CS0626,1701,1702 /fullpaths /nostdlib+ /errorreport:prompt /warn:4 /define:UNITY_LUNA;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_2019;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2019_4;UNITY_2019_4_23 /highentropyva+ /reference:E:\LunaDownload\3.4.1\pipeline\templates\LunaCompiler\packages\Bridge.Core.17.9.13-luna\lib\net40\Bridge.dll /reference:E:\LunaDownload\3.4.1\pipeline\templates\LunaCompiler\packages\Bridge.Html5.17.9.0\lib\net40\Bridge.Html5.dll /reference:E:\LunaDownload\3.4.1\pipeline\templates\LunaCompiler\packages\Bridge.WebGL.1.22.0\lib\net40\Bridge.WebGL.dll /reference:E:\LunaDownload\3.4.1\pipeline\templates\LunaCompiler\packages\DOTween.1.2.235\lib\net40\DOTween.dll /reference:E:\LunaDownload\3.4.1\pipeline\templates\LunaCompiler\packages\Bridge.Newtonsoft.Json.1.16.0\lib\net40\Newtonsoft.Json.dll /reference:E:\LunaDownload\3.4.1\pipeline\templates\LunaCompiler\packages\Retyped.Core.1.6.6733\lib\net40\Retyped.Core.dll /reference:E:\LunaDownload\3.4.1\pipeline\templates\LunaCompiler\packages\Retyped.dom.2.8.6733\lib\net40\Retyped.dom.dll /reference:E:\LunaDownload\3.4.1\pipeline\templates\LunaCompiler\packages\Retyped.es5.2.8.6733\lib\net40\Retyped.es5.dll /reference:E:\LunaDownload\3.4.1\pipeline\templates\LunaCompiler\packages\Retyped.scripthost.2.8.6733\lib\net40\Retyped.scripthost.dll /reference:E:\LunaDownload\3.4.1\pipeline\templates\LunaCompiler\Scripts\Vendor\UnityEngine.dll /reference:E:\LunaDownload\3.4.1\pipeline\templates\LunaCompiler\packages\com.unity.ui\1.2.1\UnityEngine.UI.dll /reference:E:\LunaDownload\3.4.1\pipeline\templates\LunaCompiler\packages\com.unity.urp\7.6\UnityEngine.UniversalRenderPipeline.dll /debug+ /debug:full /optimize- /out:obj\Debug\UnityScriptsCompiler.dll /subsystemversion:6.00 /target:library /utf8output /langversion:7.2 Z:\LunaPLY\MergeHyperCat\Assets\01_MergeMaster\Scripts\Controller\ArrayPosFight.cs Z:\LunaPLY\MergeHyperCat\Assets\01_MergeMaster\Scripts\Controller\AttackUniversal.cs Z:\LunaPLY\MergeHyperCat\Assets\01_MergeMaster\Scripts\Controller\CharacterController.cs Z:\LunaPLY\MergeHyperCat\Assets\01_MergeMaster\Scripts\Controller\DrawLine.cs Z:\LunaPLY\MergeHyperCat\Assets\01_MergeMaster\Scripts\Controller\DrawLineCanvas.cs Z:\LunaPLY\MergeHyperCat\Assets\01_MergeMaster\Scripts\Controller\Enemy\Baby.cs Z:\LunaPLY\MergeHyperCat\Assets\01_MergeMaster\Scripts\Controller\Enemy\Huggy09.cs Z:\LunaPLY\MergeHyperCat\Assets\01_MergeMaster\Scripts\Controller\EnemyController.cs Z:\LunaPLY\MergeHyperCat\Assets\01_MergeMaster\Scripts\Controller\LookAtCamera.cs Z:\LunaPLY\MergeHyperCat\Assets\01_MergeMaster\Scripts\Controller\ShootingRaycast.cs Z:\LunaPLY\MergeHyperCat\Assets\01_MergeMaster\Scripts\Controller\SoundController.cs Z:\LunaPLY\MergeHyperCat\Assets\01_MergeMaster\Scripts\Manager\GameManager1.cs Z:\LunaPLY\MergeHyperCat\Assets\01_MergeMaster\Scripts\Manager\GameManager2.cs Z:\LunaPLY\MergeHyperCat\Assets\01_MergeMaster\Scripts\Manager\GameManager3.cs Z:\LunaPLY\MergeHyperCat\Assets\01_MergeMaster\Scripts\Manager\GameManager4.cs Z:\LunaPLY\MergeHyperCat\Assets\01_MergeMaster\Scripts\Manager\GameManager6.cs Z:\LunaPLY\MergeHyperCat\Assets\01_MergeMaster\Scripts\Utility\AutoDestroy.cs Z:\LunaPLY\MergeHyperCat\Assets\01_MergeMaster\Scripts\Utility\AutoDestructor.cs Z:\LunaPLY\MergeHyperCat\Assets\01_MergeMaster\Scripts\Utility\DefineHelper.cs Z:\LunaPLY\MergeHyperCat\Assets\01_MergeMaster\Scripts\Utility\EventDispatcher\EventDispatcher.cs Z:\LunaPLY\MergeHyperCat\Assets\01_MergeMaster\Scripts\Utility\GlobalInstance.cs Z:\LunaPLY\MergeHyperCat\Assets\01_MergeMaster\Scripts\Utility\HelperUtility.cs Z:\LunaPLY\MergeHyperCat\Assets\01_MergeMaster\Scripts\Utility\RotateObject.cs Z:\LunaPLY\MergeHyperCat\Assets\01_MergeMaster\Scripts\Utility\SimplePool.cs Z:\LunaPLY\MergeHyperCat\Assets\01_MergeMaster\Scripts\Utility\Singleton.cs Z:\LunaPLY\MergeHyperCat\Assets\01_MergeMaster\Scripts\Utility\VectorUlti.cs Z:\LunaPLY\MergeHyperCat\Assets\03_MergeHyperCat\Scripts\Controller\Enemy\BossHuggy.cs Z:\LunaPLY\MergeHyperCat\Assets\03_MergeHyperCat\Scripts\Manager\MergeHyper.cs Z:\LunaPLY\MergeHyperCat\Assets\03_MergeHyperCat\Scripts\Manager\MergeHyper2.cs Z:\LunaPLY\MergeHyperCat\Assets\BOXOPHOBIC\Utils\Scripts\SettingsUtils\SettingsData.cs Z:\LunaPLY\MergeHyperCat\Assets\BOXOPHOBIC\Utils\Scripts\StyledGizmos\StyledLabelGizmo.cs Z:\LunaPLY\MergeHyperCat\Assets\BOXOPHOBIC\Utils\Scripts\StyledInspector\StyledBanner.cs Z:\LunaPLY\MergeHyperCat\Assets\BOXOPHOBIC\Utils\Scripts\StyledInspector\StyledButton.cs Z:\LunaPLY\MergeHyperCat\Assets\BOXOPHOBIC\Utils\Scripts\StyledInspector\StyledCategory.cs Z:\LunaPLY\MergeHyperCat\Assets\BOXOPHOBIC\Utils\Scripts\StyledInspector\StyledEnum.cs Z:\LunaPLY\MergeHyperCat\Assets\BOXOPHOBIC\Utils\Scripts\StyledInspector\StyledIndent.cs Z:\LunaPLY\MergeHyperCat\Assets\BOXOPHOBIC\Utils\Scripts\StyledInspector\StyledInteractive.cs Z:\LunaPLY\MergeHyperCat\Assets\BOXOPHOBIC\Utils\Scripts\StyledInspector\StyledLayers.cs Z:\LunaPLY\MergeHyperCat\Assets\BOXOPHOBIC\Utils\Scripts\StyledInspector\StyledMask.cs Z:\LunaPLY\MergeHyperCat\Assets\BOXOPHOBIC\Utils\Scripts\StyledInspector\StyledMessage.cs Z:\LunaPLY\MergeHyperCat\Assets\BOXOPHOBIC\Utils\Scripts\StyledInspector\StyledRangeOptions.cs Z:\LunaPLY\MergeHyperCat\Assets\BOXOPHOBIC\Utils\Scripts\StyledInspector\StyledSpace.cs Z:\LunaPLY\MergeHyperCat\Assets\BOXOPHOBIC\Utils\Scripts\StyledInspector\StyledText.cs Z:\LunaPLY\MergeHyperCat\Assets\BOXOPHOBIC\Utils\Scripts\StyledInspector\StyledTexturePreview.cs Z:\LunaPLY\MergeHyperCat\Assets\BOXOPHOBIC\Utils\Scripts\StyledMono\StyledMonoBehaviour.cs Z:\LunaPLY\MergeHyperCat\Assets\BOXOPHOBIC\Utils\Scripts\StyledMono\StyledScriptableObject.cs "Z:\LunaPLY\MergeHyperCat\Assets\Epic Toon FX\Demo\ParticleEffectsShowcase\Scripts\ParticleEffectsLibrary.cs" "Z:\LunaPLY\MergeHyperCat\Assets\Epic Toon FX\Demo\ParticleEffectsShowcase\Scripts\PEButtonScript.cs" "Z:\LunaPLY\MergeHyperCat\Assets\Epic Toon FX\Demo\ParticleEffectsShowcase\Scripts\PEDestoryTimed.cs" "Z:\LunaPLY\MergeHyperCat\Assets\Epic Toon FX\Demo\ParticleEffectsShowcase\Scripts\UICanvasManager.cs" "Z:\LunaPLY\MergeHyperCat\Assets\Epic Toon FX\Demo\Scripts\ETFXButtonScript.cs" "Z:\LunaPLY\MergeHyperCat\Assets\Epic Toon FX\Demo\Scripts\ETFXFireProjectile.cs" "Z:\LunaPLY\MergeHyperCat\Assets\Epic Toon FX\Demo\Scripts\ETFXLoopScript.cs" "Z:\LunaPLY\MergeHyperCat\Assets\Epic Toon FX\Demo\Scripts\ETFXMouseOrbit.cs" "Z:\LunaPLY\MergeHyperCat\Assets\Epic Toon FX\Demo\Scripts\ETFXProjectileScript.cs" "Z:\LunaPLY\MergeHyperCat\Assets\Epic Toon FX\Demo\Scripts\ETFXSceneManager.cs" "Z:\LunaPLY\MergeHyperCat\Assets\Epic Toon FX\Demo\Scripts\ETFXTarget.cs" "Z:\LunaPLY\MergeHyperCat\Assets\Epic Toon FX\Scripts\ETFXLightFade.cs" "Z:\LunaPLY\MergeHyperCat\Assets\Epic Toon FX\Scripts\ETFXPitchRandomizer.cs" "Z:\LunaPLY\MergeHyperCat\Assets\Epic Toon FX\Scripts\ETFXRotation.cs" Z:\LunaPLY\MergeHyperCat\Assets\Plugins\Demigiant\DOTween\Modules\DOTweenModuleAudio.cs Z:\LunaPLY\MergeHyperCat\Assets\Plugins\Demigiant\DOTween\Modules\DOTweenModuleEPOOutline.cs Z:\LunaPLY\MergeHyperCat\Assets\Plugins\Demigiant\DOTween\Modules\DOTweenModulePhysics.cs Z:\LunaPLY\MergeHyperCat\Assets\Plugins\Demigiant\DOTween\Modules\DOTweenModulePhysics2D.cs Z:\LunaPLY\MergeHyperCat\Assets\Plugins\Demigiant\DOTween\Modules\DOTweenModuleSprite.cs Z:\LunaPLY\MergeHyperCat\Assets\Plugins\Demigiant\DOTween\Modules\DOTweenModuleUI.cs Z:\LunaPLY\MergeHyperCat\Assets\Plugins\Demigiant\DOTween\Modules\DOTweenModuleUnityVersion.cs Z:\LunaPLY\MergeHyperCat\Assets\Plugins\Demigiant\DOTween\Modules\DOTweenModuleUtils.cs Properties/AssemblyInfo.cs Sources/OtherDummyScript.cs "obj\Debug\.NETFramework,Version=v4.7.AssemblyAttributes.cs"
+
+Z:\LunaPLY\MergeHyperCat\Assets\01_MergeMaster\Scripts\Controller\EnemyController.cs(16,17): warning CS0169: The field 'EnemyController.hp' is never used [E:\LunaDownload\3.4.1\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+
+Z:\LunaPLY\MergeHyperCat\Assets\01_MergeMaster\Scripts\Controller\CharacterController.cs(8,39): warning CS0649: Field 'CharacterController.animator' is never assigned to, and will always have its default value null [E:\LunaDownload\3.4.1\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+
+Z:\LunaPLY\MergeHyperCat\Assets\01_MergeMaster\Scripts\Controller\CharacterController.cs(10,36): warning CS0649: Field 'CharacterController.yDie' is never assigned to, and will always have its default value 0 [E:\LunaDownload\3.4.1\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+
+Z:\LunaPLY\MergeHyperCat\Assets\01_MergeMaster\Scripts\Controller\CharacterController.cs(9,41): warning CS0649: Field 'CharacterController.canvas' is never assigned to, and will always have its default value null [E:\LunaDownload\3.4.1\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+
+Z:\LunaPLY\MergeHyperCat\Assets\01_MergeMaster\Scripts\Controller\EnemyController.cs(14,19): warning CS0169: The field 'EnemyController.color' is never used [E:\LunaDownload\3.4.1\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+
+Z:\LunaPLY\MergeHyperCat\Assets\01_MergeMaster\Scripts\Manager\GameManager2.cs(11,37): warning CS0169: The field 'GameManager2.cameraMain' is never used [E:\LunaDownload\3.4.1\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+
+Z:\LunaPLY\MergeHyperCat\Assets\01_MergeMaster\Scripts\Controller\CharacterController.cs(20,17): warning CS0169: The field 'CharacterController.currentHP' is never used [E:\LunaDownload\3.4.1\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+
+Z:\LunaPLY\MergeHyperCat\Assets\01_MergeMaster\Scripts\Controller\CharacterController.cs(19,17): warning CS0169: The field 'CharacterController.hp' is never used [E:\LunaDownload\3.4.1\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+Z:\LunaPLY\MergeHyperCat\Assets\01_MergeMaster\Scripts\Manager\GameManager3.cs(10,37): warning CS0169: The field 'GameManager3.cameraMain' is never used [E:\LunaDownload\3.4.1\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+
+Z:\LunaPLY\MergeHyperCat\Assets\01_MergeMaster\Scripts\Controller\EnemyController.cs(17,17): warning CS0169: The field 'EnemyController.currentHP' is never used [E:\LunaDownload\3.4.1\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+
+Z:\LunaPLY\MergeHyperCat\Assets\01_MergeMaster\Scripts\Manager\GameManager2.cs(15,41): warning CS0649: Field 'GameManager2.enemyParent' is never assigned to, and will always have its default value null [E:\LunaDownload\3.4.1\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+Z:\LunaPLY\MergeHyperCat\Assets\01_MergeMaster\Scripts\Utility\RotateObject.cs(7,36): warning CS0649: Field 'RotateObject.duration' is never assigned to, and will always have its default value 0 [E:\LunaDownload\3.4.1\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+
+Z:\LunaPLY\MergeHyperCat\Assets\01_MergeMaster\Scripts\Controller\DrawLine.cs(8,41): warning CS0649: Field 'DrawLine.linePref' is never assigned to, and will always have its default value null [E:\LunaDownload\3.4.1\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+
+Z:\LunaPLY\MergeHyperCat\Assets\01_MergeMaster\Scripts\Manager\GameManager2.cs(14,41): warning CS0649: Field 'GameManager2.characterParent' is never assigned to, and will always have its default value null [E:\LunaDownload\3.4.1\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+
+Z:\LunaPLY\MergeHyperCat\Assets\01_MergeMaster\Scripts\Controller\DrawLine.cs(7,36): warning CS0649: Field 'DrawLine.timeDelay' is never assigned to, and will always have its default value 0 [E:\LunaDownload\3.4.1\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+
+Z:\LunaPLY\MergeHyperCat\Assets\01_MergeMaster\Scripts\Utility\RotateObject.cs(8,36): warning CS0649: Field 'RotateObject.angle' is never assigned to, and will always have its default value 0 [E:\LunaDownload\3.4.1\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+
+Z:\LunaPLY\MergeHyperCat\Assets\01_MergeMaster\Scripts\Manager\GameManager1.cs(9,37): warning CS0169: The field 'GameManager1.cameraMain' is never used [E:\LunaDownload\3.4.1\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+
+Z:\LunaPLY\MergeHyperCat\Assets\01_MergeMaster\Scripts\Utility\AutoDestructor.cs(14,42): warning CS0649: Field 'AutoDestructor.typeDestroy' is never assigned to, and will always have its default value [E:\LunaDownload\3.4.1\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+
+  CompilerServer: server - server processed compilation - 20596759-e73c-432d-8701-e934123fcbf9
+
+_CopyFilesMarkedCopyLocal:
+  Copying file from "E:\LunaDownload\3.4.1\pipeline\templates\LunaCompiler\packages\DOTween.1.2.235\lib\net40\DOTween.dll" to "E:\LunaDownload\3.4.1\pipeline\templates\LunaCompiler\Scripts\bin\Debug\DOTween.dll".
+  Copying file from "E:\LunaDownload\3.4.1\pipeline\templates\LunaCompiler\packages\Bridge.Core.17.9.13-luna\lib\net40\Bridge.dll" to "E:\LunaDownload\3.4.1\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.dll".
+
+  Copying file from "E:\LunaDownload\3.4.1\pipeline\templates\LunaCompiler\packages\Bridge.Newtonsoft.Json.1.16.0\lib\net40\Newtonsoft.Json.dll" to "E:\LunaDownload\3.4.1\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Newtonsoft.Json.dll".
+  Copying file from "E:\LunaDownload\3.4.1\pipeline\templates\LunaCompiler\packages\Bridge.WebGL.1.22.0\lib\net40\Bridge.WebGL.dll" to "E:\LunaDownload\3.4.1\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.WebGL.dll".
+
+  Copying file from "E:\LunaDownload\3.4.1\pipeline\templates\LunaCompiler\packages\Bridge.Html5.17.9.0\lib\net40\Bridge.Html5.dll" to "E:\LunaDownload\3.4.1\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.Html5.dll".
+
+  Copying file from "E:\LunaDownload\3.4.1\pipeline\templates\LunaCompiler\packages\Retyped.Core.1.6.6733\lib\net40\Retyped.Core.dll" to "E:\LunaDownload\3.4.1\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.Core.dll".
+
+  Copying file from "E:\LunaDownload\3.4.1\pipeline\templates\LunaCompiler\packages\Retyped.dom.2.8.6733\lib\net40\Retyped.dom.dll" to "E:\LunaDownload\3.4.1\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.dom.dll".
+
+  Copying file from "E:\LunaDownload\3.4.1\pipeline\templates\LunaCompiler\packages\Retyped.scripthost.2.8.6733\lib\net40\Retyped.scripthost.dll" to "E:\LunaDownload\3.4.1\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.scripthost.dll".
+
+  Copying file from "E:\LunaDownload\3.4.1\pipeline\templates\LunaCompiler\packages\Retyped.es5.2.8.6733\lib\net40\Retyped.es5.dll" to "E:\LunaDownload\3.4.1\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.es5.dll".
+
+  Copying file from "E:\LunaDownload\3.4.1\pipeline\templates\LunaCompiler\Scripts\Vendor\UnityEngine.dll" to "E:\LunaDownload\3.4.1\pipeline\templates\LunaCompiler\Scripts\bin\Debug\UnityEngine.dll".
+
+  Copying file from "E:\LunaDownload\3.4.1\pipeline\templates\LunaCompiler\packages\com.unity.ui\1.2.1\UnityEngine.UI.dll" to "E:\LunaDownload\3.4.1\pipeline\templates\LunaCompiler\Scripts\bin\Debug\UnityEngine.UI.dll".
+
+  Copying file from "E:\LunaDownload\3.4.1\pipeline\templates\LunaCompiler\packages\com.unity.urp\7.6\UnityEngine.UniversalRenderPipeline.dll" to "E:\LunaDownload\3.4.1\pipeline\templates\LunaCompiler\Scripts\bin\Debug\UnityEngine.UniversalRenderPipeline.d
+ll".
+
+  Copying file from "E:\LunaDownload\3.4.1\pipeline\templates\LunaCompiler\packages\Bridge.Core.17.9.13-luna\lib\net40\Bridge.xml" to "E:\LunaDownload\3.4.1\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.xml".
+
+  Copying file from "E:\LunaDownload\3.4.1\pipeline\templates\LunaCompiler\packages\Bridge.Html5.17.9.0\lib\net40\Bridge.Html5.xml" to "E:\LunaDownload\3.4.1\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.Html5.xml".
+
+  Copying file from "E:\LunaDownload\3.4.1\pipeline\templates\LunaCompiler\packages\Bridge.WebGL.1.22.0\lib\net40\Bridge.WebGL.xml" to "E:\LunaDownload\3.4.1\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.WebGL.xml".
+
+  Copying file from "E:\LunaDownload\3.4.1\pipeline\templates\LunaCompiler\packages\Bridge.Newtonsoft.Json.1.16.0\lib\net40\Newtonsoft.Json.xml" to "E:\LunaDownload\3.4.1\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Newtonsoft.Json.xml".
+
+  Copying file from "E:\LunaDownload\3.4.1\pipeline\templates\LunaCompiler\packages\Retyped.Core.1.6.6733\lib\net40\Retyped.Core.xml" to "E:\LunaDownload\3.4.1\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.Core.xml".
+
+  Copying file from "E:\LunaDownload\3.4.1\pipeline\templates\LunaCompiler\packages\Retyped.dom.2.8.6733\lib\net40\Retyped.dom.xml" to "E:\LunaDownload\3.4.1\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.dom.xml".
+
+  Copying file from "E:\LunaDownload\3.4.1\pipeline\templates\LunaCompiler\packages\Retyped.es5.2.8.6733\lib\net40\Retyped.es5.xml" to "E:\LunaDownload\3.4.1\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.es5.xml".
+
+  Copying file from "E:\LunaDownload\3.4.1\pipeline\templates\LunaCompiler\packages\Retyped.scripthost.2.8.6733\lib\net40\Retyped.scripthost.xml" to "E:\LunaDownload\3.4.1\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.scripthost.xml".
+
+  Creating "E:\LunaDownload\3.4.1\pipeline\templates\LunaCompiler\Scripts\obj\Debug\Scripts.csproj.CopyComplete" because "AlwaysCreate" was specified.
+
+CopyFilesToOutputDirectory:
+  Copying file from "E:\LunaDownload\3.4.1\pipeline\templates\LunaCompiler\Scripts\obj\Debug\UnityScriptsCompiler.dll" to "E:\LunaDownload\3.4.1\pipeline\templates\LunaCompiler\Scripts\bin\Debug\UnityScriptsCompiler.dll".
+
+  Scripts -> E:\LunaDownload\3.4.1\pipeline\templates\LunaCompiler\Scripts\bin\Debug\UnityScriptsCompiler.dll
+
+  Copying file from "E:\LunaDownload\3.4.1\pipeline\templates\LunaCompiler\Scripts\obj\Debug\UnityScriptsCompiler.pdb" to "E:\LunaDownload\3.4.1\pipeline\templates\LunaCompiler\Scripts\bin\Debug\UnityScriptsCompiler.pdb".
+
+BridgeNetCompilerTask:
+  Bridge started
+
+      To enable detailed logging, configure "logging" in bridge.json.
+
+      https://github.com/bridgedotnet/Bridge/wiki/global-configuration#logging
+
+  Bridge done
+
+Done Building Project "E:\LunaDownload\3.4.1\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj" (Rebuild target(s)).
+
+
+
+Build succeeded.
+
+
+
+"E:\LunaDownload\3.4.1\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj" (Rebuild target) (1) ->
+(CoreCompile target) -> 
+  Z:\LunaPLY\MergeHyperCat\Assets\01_MergeMaster\Scripts\Controller\EnemyController.cs(16,17): warning CS0169: The field 'EnemyController.hp' is never used [E:\LunaDownload\3.4.1\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+
+  Z:\LunaPLY\MergeHyperCat\Assets\01_MergeMaster\Scripts\Controller\CharacterController.cs(8,39): warning CS0649: Field 'CharacterController.animator' is never assigned to, and will always have its default value null [E:\LunaDownload\3.4.1\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  Z:\LunaPLY\MergeHyperCat\Assets\01_MergeMaster\Scripts\Controller\CharacterController.cs(10,36): warning CS0649: Field 'CharacterController.yDie' is never assigned to, and will always have its default value 0 [E:\LunaDownload\3.4.1\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  Z:\LunaPLY\MergeHyperCat\Assets\01_MergeMaster\Scripts\Controller\CharacterController.cs(9,41): warning CS0649: Field 'CharacterController.canvas' is never assigned to, and will always have its default value null [E:\LunaDownload\3.4.1\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  Z:\LunaPLY\MergeHyperCat\Assets\01_MergeMaster\Scripts\Controller\EnemyController.cs(14,19): warning CS0169: The field 'EnemyController.color' is never used [E:\LunaDownload\3.4.1\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+
+  Z:\LunaPLY\MergeHyperCat\Assets\01_MergeMaster\Scripts\Manager\GameManager2.cs(11,37): warning CS0169: The field 'GameManager2.cameraMain' is never used [E:\LunaDownload\3.4.1\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  Z:\LunaPLY\MergeHyperCat\Assets\01_MergeMaster\Scripts\Controller\CharacterController.cs(20,17): warning CS0169: The field 'CharacterController.currentHP' is never used [E:\LunaDownload\3.4.1\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  Z:\LunaPLY\MergeHyperCat\Assets\01_MergeMaster\Scripts\Controller\CharacterController.cs(19,17): warning CS0169: The field 'CharacterController.hp' is never used [E:\LunaDownload\3.4.1\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  Z:\LunaPLY\MergeHyperCat\Assets\01_MergeMaster\Scripts\Manager\GameManager3.cs(10,37): warning CS0169: The field 'GameManager3.cameraMain' is never used [E:\LunaDownload\3.4.1\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  Z:\LunaPLY\MergeHyperCat\Assets\01_MergeMaster\Scripts\Controller\EnemyController.cs(17,17): warning CS0169: The field 'EnemyController.currentHP' is never used [E:\LunaDownload\3.4.1\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  Z:\LunaPLY\MergeHyperCat\Assets\01_MergeMaster\Scripts\Manager\GameManager2.cs(15,41): warning CS0649: Field 'GameManager2.enemyParent' is never assigned to, and will always have its default value null [E:\LunaDownload\3.4.1\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  Z:\LunaPLY\MergeHyperCat\Assets\01_MergeMaster\Scripts\Utility\RotateObject.cs(7,36): warning CS0649: Field 'RotateObject.duration' is never assigned to, and will always have its default value 0 [E:\LunaDownload\3.4.1\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  Z:\LunaPLY\MergeHyperCat\Assets\01_MergeMaster\Scripts\Controller\DrawLine.cs(8,41): warning CS0649: Field 'DrawLine.linePref' is never assigned to, and will always have its default value null [E:\LunaDownload\3.4.1\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+
+  Z:\LunaPLY\MergeHyperCat\Assets\01_MergeMaster\Scripts\Manager\GameManager2.cs(14,41): warning CS0649: Field 'GameManager2.characterParent' is never assigned to, and will always have its default value null [E:\LunaDownload\3.4.1\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  Z:\LunaPLY\MergeHyperCat\Assets\01_MergeMaster\Scripts\Controller\DrawLine.cs(7,36): warning CS0649: Field 'DrawLine.timeDelay' is never assigned to, and will always have its default value 0 [E:\LunaDownload\3.4.1\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  Z:\LunaPLY\MergeHyperCat\Assets\01_MergeMaster\Scripts\Utility\RotateObject.cs(8,36): warning CS0649: Field 'RotateObject.angle' is never assigned to, and will always have its default value 0 [E:\LunaDownload\3.4.1\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  Z:\LunaPLY\MergeHyperCat\Assets\01_MergeMaster\Scripts\Manager\GameManager1.cs(9,37): warning CS0169: The field 'GameManager1.cameraMain' is never used [E:\LunaDownload\3.4.1\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  Z:\LunaPLY\MergeHyperCat\Assets\01_MergeMaster\Scripts\Utility\AutoDestructor.cs(14,42): warning CS0649: Field 'AutoDestructor.typeDestroy' is never assigned to, and will always have its default value [E:\LunaDownload\3.4.1\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+
+
+    18 Warning(s)
+    0 Error(s)
+
+
+Time Elapsed 00:00:09.32
+
+Source code compiled successfully!
+report@code:build 9604.88
+report@diagnostics:verify 0.31
+report@diagnostics:upload 2166.72
+report@code:stage 6606.25
+[ Stage3 ] Code compiled and bundled successfully.
+report@package:stage 95172.48
+[ Stage4 ] Target platform: playground
+[ Stage4 ] Package bundled successfully
+report@assets:stats 0.66
