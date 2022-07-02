@@ -63,7 +63,7 @@
       }
     },
     "uk.lunalabs.luna": {
-      "version": "file:E:/LunaDownload/3.4.1/scripts",
+      "version": "file:E:/LunaDownload/3.10.0/scripts",
       "depth": 0,
       "source": "local",
       "dependencies": {}
