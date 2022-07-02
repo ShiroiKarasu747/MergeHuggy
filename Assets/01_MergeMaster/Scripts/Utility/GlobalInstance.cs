@@ -4,5 +4,5 @@ using UnityEngine;
 
 public class GlobalInstance : Singleton<GlobalInstance>
 {
-    public MergeHuggy1 gameManagerInstance = MergeHuggy1.Instance;
+    public MergeHuggyCraft1 gameManagerInstance = MergeHuggyCraft1.Instance;
 }

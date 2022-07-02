@@ -13,7 +13,6 @@ public class Huggy09 : EnemyController
         {
             effectSlash.SetActive(true);
             spikeAttack.SetActive(true);
-            GlobalInstance.Instance.gameManagerInstance.soundController.PlaySoundSlash();
             GlobalInstance.Instance.gameManagerInstance.soundController.PlaySoundPunch();
             colliderAttack.enabled = true;
             spikeAttack.GetComponent<ParticleSystem>().Play();

@@ -6,7 +6,7 @@ public class SoundController : Singleton<SoundController>
 {
     public AudioSource audioSourceFX;
     public AudioSource audioSourceBG;
-    public AudioClip clipChoose, clipMerge, clipLose, clipWin, clipPunch, clipTRex, clipFall, clipSlash;
+    public AudioClip clipChoose, clipMerge, clipLose, clipWin, clipPunch, clipLightning, clipFall;
     public void PlaySoundChoose()
     {
         PlaySoundFX(clipChoose);
@@ -29,14 +29,9 @@ public class SoundController : Singleton<SoundController>
         PlaySoundFX(clipPunch);
     }
 
-    public void PlaySoundSlash()
+    public void PlaySoundLightning()
     {
-        PlaySoundFX(clipSlash);
-    }
-
-    public void PlaySoundTRex()
-    {
-        PlaySoundFX(clipTRex);
+        PlaySoundFX(clipLightning);
     }
     public void PlaySoundFall()
     {

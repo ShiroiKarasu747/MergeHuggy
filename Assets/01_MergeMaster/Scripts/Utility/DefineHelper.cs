@@ -17,6 +17,9 @@ public class NameTag
 {
     public const string FakeGround = "FakeGround";
     public const string Player = "Player";
+    public const string Enemy = "Enemy";
+    public const string AttackPlayer = "AttackPlayer";
+    public const string AttackEnemy = "AttackEnemy";
 }
 public enum EventID
 {

@@ -76,7 +76,7 @@ public class MergeHuggy1 : Singleton<MergeHuggy1>
     {
         GlobalInstance.Instance.gameManagerInstance.guide.SetActive(false);
         GlobalInstance.Instance.gameManagerInstance.guideHand.SetActive(false);
-        GlobalInstance.Instance.gameManagerInstance.guideHand2.SetActive(false);
+        //GlobalInstance.Instance.gameManagerInstance.guideHand2.SetActive(false);
     }
     public void ActionAttack()
     {

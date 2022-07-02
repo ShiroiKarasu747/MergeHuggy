@@ -49,7 +49,7 @@ public class CharacterHuggy : MonoBehaviour
         var newChar = Instantiate(characterUp);
         newChar.transform.position = transform.position;
         newChar.transform.localScale = Vector3.zero;
-        CharacterHuggy newCharacterController = newChar.GetComponent<CharacterHuggy>();
+        MainCharacter newCharacterController = newChar.GetComponent<MainCharacter>();
         newChar.transform.DOScale(newCharacterController.charScale, 0.4f).SetEase(Ease.OutBack).OnComplete(() =>
         {
             GlobalInstance.Instance.gameManagerInstance.guideAttack.SetActive(true);
@@ -73,50 +73,46 @@ public class CharacterHuggy : MonoBehaviour
     }
     public void RunToTarget()
     {
-        //For GamePlayFight
-        //canvas.SetActive(false);
-        int random = Random.Range(0, 8);
-        bool isFullSlot = true;
-        Transform[] array = GlobalInstance.Instance.gameManagerInstance.arrPosFighting;
-        for (int i = 0; i < array.Length; i++)
-        {
-            if (!array[i].GetComponent<ArrayPosFight>().isHasPlayer)
-            {
-                isFullSlot = false;
-                break;
-            }
-        }
-        if (!isFullSlot)
-        {
-            while (array[random].GetComponent<ArrayPosFight>().isHasPlayer)
-            {
-                random = Random.Range(0, 8);
-            }
-            array[random].GetComponent<ArrayPosFight>().isHasPlayer = true;
-            Vector3 posMove = array[random].position;
-            AnimationMove(true);
-            transform.DOMove(posMove, 1.5f).SetEase(Ease.Linear).OnComplete(() =>
-            {
-                AnimationMove(false);
-                animator.SetTrigger(DefineHelper.Attack);
-            });
-            //var direction = new Vector3(posMove.x - transform.position.x, posMove.y - transform.position.y, posMove.z - transform.position.z);
-            //RotateFacing(direction);
-        }
-        else
-        {
-            float randomPosX = Random.Range(-1.07f, 1.07f);
-            Vector3 posMove = new Vector3(randomPosX, 0.079f, 0.285f);
-            AnimationMove(true);
-            transform.DOMove(posMove, 1.5f).SetEase(Ease.Linear).OnComplete(() =>
-            {
-                AnimationMove(false);
-                AnimationAttack(true);
+        ////For GamePlayFight
+        ////canvas.SetActive(false);
+        //int random = Random.Range(0, 8);
+        //bool isFullSlot = true;
+        //Transform[] array = GlobalInstance.Instance.gameManagerInstance.arrPosFighting;
+        //for (int i = 0; i < array.Length; i++)
+        //{
+        //    if (!array[i].GetComponent<ArrayPosFight>().isHasPlayer)
+        //    {
+        //        isFullSlot = false;
+        //        break;
+        //    }
+        //}
+        //if (!isFullSlot)
+        //{
+        //    while (array[random].GetComponent<ArrayPosFight>().isHasPlayer)
+        //    {
+        //        random = Random.Range(0, 8);
+        //    }
+        //    array[random].GetComponent<ArrayPosFight>().isHasPlayer = true;
+        //    Vector3 posMove = array[random].position;
+        //    AnimationMove(true);
+        //    transform.DOMove(posMove, 1.5f).SetEase(Ease.Linear).OnComplete(() =>
+        //    {
+        //        AnimationMove(false);
+        //        animator.SetTrigger(DefineHelper.Attack);
+        //    });
+        //}
+        //else
+        //{
+        //    float randomPosX = Random.Range(-1.07f, 1.07f);
+        //    Vector3 posMove = new Vector3(randomPosX, 0.079f, 0.285f);
+        //    AnimationMove(true);
+        //    transform.DOMove(posMove, 1.5f).SetEase(Ease.Linear).OnComplete(() =>
+        //    {
+        //        AnimationMove(false);
+        //        AnimationAttack(true);
 
-            });
-            //var direction = new Vector3(posMove.x - transform.position.x, posMove.y - transform.position.y, posMove.z - transform.position.z);
-            //RotateFacing(direction);
-        }
+        //    });
+        //}
     }
 
     bool flagAnim1, flagAnim2;

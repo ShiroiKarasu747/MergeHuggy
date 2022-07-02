@@ -70,7 +70,6 @@ public class GameManager2 : Singleton<GameManager2>
         StartCoroutine(HelperUtility.StartAction(() =>
         {
             soundController.PlaySoundPunch();
-            soundController.PlaySoundTRex();
         }, 2.1f));
         if (isMergeWin)
         {

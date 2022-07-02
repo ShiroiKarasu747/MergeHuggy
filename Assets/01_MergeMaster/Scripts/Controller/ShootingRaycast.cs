@@ -7,7 +7,7 @@ public class ShootingRaycast : MonoBehaviour
 {
 
     Ray ray;
-    private List<CharacterHuggy> lstObjects = new List<CharacterHuggy>();
+    private List<MainCharacter> lstObjects = new List<MainCharacter>();
     private bool flagMergeDone = false;
     private void Update()
     {
@@ -29,7 +29,7 @@ public class ShootingRaycast : MonoBehaviour
                         Transform select = hit.transform;
                         if (select.transform.CompareTag(NameTag.Player))
                         {
-                            CharacterHuggy charController = select.GetComponent<CharacterHuggy>();
+                            MainCharacter charController = select.GetComponent<MainCharacter>();
                             if (!charController.isChoosed)
                             {
                                 GlobalInstance.Instance.gameManagerInstance.soundController.PlaySoundChoose();

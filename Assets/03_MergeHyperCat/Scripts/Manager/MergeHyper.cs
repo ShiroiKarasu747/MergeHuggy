@@ -76,7 +76,7 @@ public class MergeHyper : Singleton<MergeHyper>
     {
         GlobalInstance.Instance.gameManagerInstance.guide.SetActive(false);
         GlobalInstance.Instance.gameManagerInstance.guideHand.SetActive(false);
-        GlobalInstance.Instance.gameManagerInstance.guideHand2.SetActive(false);
+        //GlobalInstance.Instance.gameManagerInstance.guideHand2.SetActive(false);
     }
     public void ActionAttack()
     {

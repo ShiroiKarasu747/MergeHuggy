@@ -71,7 +71,7 @@ public class GameManager4 : Singleton<GameManager4>
     {
         GlobalInstance.Instance.gameManagerInstance.guide.SetActive(false);
         GlobalInstance.Instance.gameManagerInstance.guideHand.SetActive(false);
-        GlobalInstance.Instance.gameManagerInstance.guideHand2.SetActive(false);
+        //GlobalInstance.Instance.gameManagerInstance.guideHand2.SetActive(false);
     }
     public void ActionAttack()
     {

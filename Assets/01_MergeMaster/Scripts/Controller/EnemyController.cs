@@ -16,7 +16,7 @@ public class EnemyController : MonoBehaviour
     private int hp;
     private int currentHP;
     //Chasing Variable
-    private GameObject playerTarget;
+    protected GameObject playerTarget;
     private bool isTargetEnemy;
     private float speedMove = 0.9f;
     private float maxDist = 1;
@@ -97,5 +97,12 @@ public class EnemyController : MonoBehaviour
             _propBlock.SetColor("_Color", new Color32(217, 217, 217, 255));
             meshRenderer.SetPropertyBlock(_propBlock);
         }, 0.3f));
+    }
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.CompareTag(NameTag.AttackPlayer))
+        {
+            ApplyDamage();
+        }
     }
 }
