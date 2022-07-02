@@ -6,6 +6,8 @@ TagManager:
   tags:
   - FakeGround
   - AttackEnemy
+  - AttackPlayer
+  - Enemy
   layers:
   - Default
   - TransparentFX
@@ -17,8 +19,8 @@ TagManager:
   - 
   - GroundFake
   - Player
-  - AttackPlayer
   - 
+  - Enemy
   - 
   - 
   - 
