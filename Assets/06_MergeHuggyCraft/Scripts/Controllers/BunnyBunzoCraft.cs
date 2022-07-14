@@ -11,6 +11,7 @@ public class BunnyBunzoCraft : EnemyController
         {
             var bullet = SimplePool.Spawn(prefBullet);
             bullet.transform.position = playerTarget.transform.position;
+            //bullet.transform.rotation = Quaternion.Euler(90, 0, 0);
             GlobalInstance.Instance.gameManagerInstance.soundController.PlaySoundLightning();
         }
     }

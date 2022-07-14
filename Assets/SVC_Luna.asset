@@ -445,13 +445,20 @@ MonoBehaviour:
     passType: 4
     passId: 0
     subShaderIndex: 0
-    upToDate: 0
+    upToDate: 1
     keywords:
     - DIRECTIONAL
     - LIGHTPROBE_SH
   - shader: {fileID: 211, guid: 0000000000000000f000000000000000, type: 0}
     passType: 4
     passId: 2
+    subShaderIndex: 0
+    upToDate: 1
+    keywords:
+    - _ALPHABLEND_ON
+  - shader: {fileID: 211, guid: 0000000000000000f000000000000000, type: 0}
+    passType: 4
+    passId: 0
     subShaderIndex: 0
     upToDate: 0
     keywords:
@@ -465,7 +472,7 @@ MonoBehaviour:
     upToDate: 1
     keywords:
     - SHADOWS_DEPTH
-  version: 306
+  version: 446
   _shaderParsedShaders:
   - "\u2015\u2001":
     - "\u2033\u204F": 0
