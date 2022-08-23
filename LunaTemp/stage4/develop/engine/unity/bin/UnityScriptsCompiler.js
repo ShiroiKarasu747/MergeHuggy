@@ -1,8 +1,8 @@
-if ( TRACE ) { TRACE( JSON.parse( '["AttackUniversal#init","AttackUniversal#Update","AttackUniversal#DetectCollision","AutoDestroy#init","AutoDestroy#OnEnable","AutoDestroy#Update","AutoDestroy#OnDestroy","AutoDestroy#OnDisable","AutoDestructor#init","AutoDestructor#OnEnable","AutoDestructor#AutoDestroy","AutoDestructor#OnDisable","EnemyController#init","EnemyController#AnimationMove","EnemyController#AnimationAttack","EnemyController#RunToTarget","EnemyController#ChasingPlayer","EnemyController#Update","EnemyController#AnimationDie","EnemyController#Dying","EnemyController#ApplyDamage","EnemyController#OnTriggerEnter","Boxophobic.StyledGUI.StyledBanner#$ctor3","Boxophobic.StyledGUI.StyledBanner#$ctor4","Boxophobic.StyledGUI.StyledBanner#ctor","Boxophobic.StyledGUI.StyledBanner#$ctor1","Boxophobic.StyledGUI.StyledBanner#$ctor5","Boxophobic.StyledGUI.StyledBanner#$ctor2","Boxophobic.StyledGUI.StyledButton#init","Boxophobic.StyledGUI.StyledButton#ctor","Boxophobic.StyledGUI.StyledButton#$ctor1","Boxophobic.StyledGUI.StyledCategory#ctor","Boxophobic.StyledGUI.StyledCategory#$ctor1","Boxophobic.StyledGUI.StyledCategory#$ctor3","Boxophobic.StyledGUI.StyledCategory#$ctor2","Boxophobic.StyledGUI.StyledEnum#init","Boxophobic.StyledGUI.StyledEnum#ctor","Boxophobic.StyledGUI.StyledEnum#$ctor1","Boxophobic.StyledGUI.StyledIndent#ctor","Boxophobic.StyledGUI.StyledInteractive#ctor","Boxophobic.StyledGUI.StyledLayers#init","Boxophobic.StyledGUI.StyledLayers#ctor","Boxophobic.StyledGUI.StyledLayers#$ctor1","Boxophobic.StyledGUI.StyledMask#init","Boxophobic.StyledGUI.StyledMask#ctor","Boxophobic.StyledGUI.StyledMask#$ctor1","Boxophobic.StyledGUI.StyledMessage#ctor","Boxophobic.StyledGUI.StyledMessage#$ctor1","Boxophobic.StyledGUI.StyledRangeOptions#ctor","Boxophobic.StyledGUI.StyledSpace#ctor","Boxophobic.StyledGUI.StyledText#init","Boxophobic.StyledGUI.StyledText#ctor","Boxophobic.StyledGUI.StyledText#$ctor1","Boxophobic.StyledGUI.StyledText#$ctor2","Boxophobic.StyledGUI.StyledTexturePreview#init","Boxophobic.StyledGUI.StyledTexturePreview#ctor","Boxophobic.StyledGUI.StyledTexturePreview#$ctor1","Boxophobic.Utils.SettingsData#init","CharacterController#init","CharacterController#ActiveChoose","CharacterController#UnActiveChoose","CharacterController#SpawnCharacter","CharacterController#SpawnerFXSmoke","CharacterController#RunToTarget","CharacterController#ChasingEnemy","CharacterController#Update","CharacterController#AnimationMove","CharacterController#AnimationDie","CharacterController#AnimationAttack","CharacterController#Dying","CharacterController#RotateFacing","CharacterController#ApplyDamage","CharacterController#OnTriggerEnter","CharacterHuggy#init","CharacterHuggy#ActiveChoose","CharacterHuggy#UnActiveChoose","CharacterHuggy#SpawnCharacter","CharacterHuggy#SpawnerFXSmoke","CharacterHuggy#RunToTarget","CharacterHuggy#ChasingEnemy","CharacterHuggy#Update","CharacterHuggy#AnimationMove","CharacterHuggy#AnimationDie","CharacterHuggy#AnimationAttack","CharacterHuggy#Dying","CharacterHuggy#RotateFacing","CharacterHuggy#ApplyDamage","CharacterHuggy#OnTriggerEnter","DefineHelper#init","DG.Tweening.DOTweenCYInstruction.WaitForCompletion#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForCompletion#ctor","DG.Tweening.DOTweenCYInstruction.WaitForElapsedLoops#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForElapsedLoops#ctor","DG.Tweening.DOTweenCYInstruction.WaitForKill#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForKill#ctor","DG.Tweening.DOTweenCYInstruction.WaitForPosition#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForPosition#ctor","DG.Tweening.DOTweenCYInstruction.WaitForRewind#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForRewind#ctor","DG.Tweening.DOTweenCYInstruction.WaitForStart#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForStart#ctor","DG.Tweening.DOTweenModuleAudio#DOFade","DG.Tweening.DOTweenModuleAudio#DOPitch","DG.Tweening.DOTweenModuleAudio#DOSetFloat","DG.Tweening.DOTweenModuleAudio#DOComplete","DG.Tweening.DOTweenModuleAudio#DOKill","DG.Tweening.DOTweenModuleAudio#DOFlip","DG.Tweening.DOTweenModuleAudio#DOGoto","DG.Tweening.DOTweenModuleAudio#DOPause","DG.Tweening.DOTweenModuleAudio#DOPlay","DG.Tweening.DOTweenModuleAudio#DOPlayBackwards","DG.Tweening.DOTweenModuleAudio#DOPlayForward","DG.Tweening.DOTweenModuleAudio#DORestart","DG.Tweening.DOTweenModuleAudio#DORewind","DG.Tweening.DOTweenModuleAudio#DOSmoothRewind","DG.Tweening.DOTweenModuleAudio#DOTogglePause","DG.Tweening.DOTweenModulePhysics#DOMove","DG.Tweening.DOTweenModulePhysics#DOMoveX","DG.Tweening.DOTweenModulePhysics#DOMoveY","DG.Tweening.DOTweenModulePhysics#DOMoveZ","DG.Tweening.DOTweenModulePhysics#DORotate","DG.Tweening.DOTweenModulePhysics#DOLookAt","DG.Tweening.DOTweenModulePhysics#DOJump","DG.Tweening.DOTweenModulePhysics#DOPath","DG.Tweening.DOTweenModulePhysics#DOPath$1","DG.Tweening.DOTweenModulePhysics#DOLocalPath","DG.Tweening.DOTweenModulePhysics#DOLocalPath$1","DG.Tweening.DOTweenModuleSprite#DOColor","DG.Tweening.DOTweenModuleSprite#DOFade","DG.Tweening.DOTweenModuleSprite#DOGradientColor","DG.Tweening.DOTweenModuleSprite#DOBlendableColor","DG.Tweening.DOTweenModuleUI#DOFade","DG.Tweening.DOTweenModuleUI#DOFade$1","DG.Tweening.DOTweenModuleUI#DOFade$2","DG.Tweening.DOTweenModuleUI#DOFade$3","DG.Tweening.DOTweenModuleUI#DOFade$4","DG.Tweening.DOTweenModuleUI#DOColor","DG.Tweening.DOTweenModuleUI#DOColor$1","DG.Tweening.DOTweenModuleUI#DOColor$2","DG.Tweening.DOTweenModuleUI#DOColor$3","DG.Tweening.DOTweenModuleUI#DOFillAmount","DG.Tweening.DOTweenModuleUI#DOGradientColor","DG.Tweening.DOTweenModuleUI#DOFlexibleSize","DG.Tweening.DOTweenModuleUI#DOMinSize","DG.Tweening.DOTweenModuleUI#DOPreferredSize","DG.Tweening.DOTweenModuleUI#DOScale","DG.Tweening.DOTweenModuleUI#DOAnchorPos","DG.Tweening.DOTweenModuleUI#DOAnchorPosX","DG.Tweening.DOTweenModuleUI#DOAnchorPosY","DG.Tweening.DOTweenModuleUI#DOAnchorPos3D","DG.Tweening.DOTweenModuleUI#DOAnchorPos3DX","DG.Tweening.DOTweenModuleUI#DOAnchorPos3DY","DG.Tweening.DOTweenModuleUI#DOAnchorPos3DZ","DG.Tweening.DOTweenModuleUI#DOAnchorMax","DG.Tweening.DOTweenModuleUI#DOAnchorMin","DG.Tweening.DOTweenModuleUI#DOPivot","DG.Tweening.DOTweenModuleUI#DOPivotX","DG.Tweening.DOTweenModuleUI#DOPivotY","DG.Tweening.DOTweenModuleUI#DOSizeDelta","DG.Tweening.DOTweenModuleUI#DOPunchAnchorPos","DG.Tweening.DOTweenModuleUI#DOShakeAnchorPos","DG.Tweening.DOTweenModuleUI#DOShakeAnchorPos$1","DG.Tweening.DOTweenModuleUI#DOJumpAnchorPos","DG.Tweening.DOTweenModuleUI#DONormalizedPos","DG.Tweening.DOTweenModuleUI#DOHorizontalNormalizedPos","DG.Tweening.DOTweenModuleUI#DOVerticalNormalizedPos","DG.Tweening.DOTweenModuleUI#DOValue","DG.Tweening.DOTweenModuleUI#DOCounter","DG.Tweening.DOTweenModuleUI#DOText","DG.Tweening.DOTweenModuleUI#DOBlendableColor","DG.Tweening.DOTweenModuleUI#DOBlendableColor$1","DG.Tweening.DOTweenModuleUI#DOBlendableColor$2","DG.Tweening.DOTweenModuleUI#DOShapeCircle","DG.Tweening.DOTweenModuleUI.Utils#SwitchToRectTransform","DG.Tweening.DOTweenModuleUnityVersion#DOGradientColor","DG.Tweening.DOTweenModuleUnityVersion#DOGradientColor$1","DG.Tweening.DOTweenModuleUnityVersion#WaitForCompletion","DG.Tweening.DOTweenModuleUnityVersion#WaitForRewind","DG.Tweening.DOTweenModuleUnityVersion#WaitForKill","DG.Tweening.DOTweenModuleUnityVersion#WaitForElapsedLoops","DG.Tweening.DOTweenModuleUnityVersion#WaitForPosition","DG.Tweening.DOTweenModuleUnityVersion#WaitForStart","DG.Tweening.DOTweenModuleUnityVersion#DOOffset","DG.Tweening.DOTweenModuleUnityVersion#DOTiling","DG.Tweening.DOTweenModuleUtils#Init","DG.Tweening.DOTweenModuleUtils#Preserver","DG.Tweening.DOTweenModuleUtils.Physics#SetOrientationOnPath","DG.Tweening.DOTweenModuleUtils.Physics#HasRigidbody2D","DG.Tweening.DOTweenModuleUtils.Physics#HasRigidbody","DG.Tweening.DOTweenModuleUtils.Physics#CreateDOTweenPathTween","DrawLine#init","DrawLine#Start","DrawLine#Update","DrawLine#GetMousePosition","DrawLine#SetLineColor","DrawLine#SetLineWidth","DrawLineCanvas#init","DrawLineCanvas#Update","DrawLineCanvas#GetMousePosition","DrawLineCanvas#StartDrawingLine","DrawLineCanvas#PreviewLine","DrawLineCanvas#EndDrawingLine","EpicToonFX.ETFXButtonScript#Start","EpicToonFX.ETFXButtonScript#Update","EpicToonFX.ETFXButtonScript#getProjectileNames","EpicToonFX.ETFXButtonScript#overButton","EpicToonFX.ETFXFireProjectile#init","EpicToonFX.ETFXFireProjectile#Start","EpicToonFX.ETFXFireProjectile#Update","EpicToonFX.ETFXFireProjectile#nextEffect","EpicToonFX.ETFXFireProjectile#previousEffect","EpicToonFX.ETFXFireProjectile#AdjustSpeed","EpicToonFX.ETFXLightFade#init","EpicToonFX.ETFXLightFade#Start","EpicToonFX.ETFXLightFade#Update","EpicToonFX.ETFXLoopScript#init","EpicToonFX.ETFXLoopScript#Start","EpicToonFX.ETFXLoopScript#PlayEffect","EpicToonFX.ETFXLoopScript#EffectLoop","EpicToonFX.ETFXMouseOrbit#ClampAngle","EpicToonFX.ETFXMouseOrbit#init","EpicToonFX.ETFXMouseOrbit#Start","EpicToonFX.ETFXMouseOrbit#LateUpdate","EpicToonFX.ETFXPitchRandomizer#init","EpicToonFX.ETFXPitchRandomizer#Start","EpicToonFX.ETFXRotation#init","EpicToonFX.ETFXRotation#Start","EpicToonFX.ETFXRotation#Update","EpicToonFX.ETFXTarget#Start","EpicToonFX.ETFXTarget#SpawnTarget","EpicToonFX.ETFXTarget#OnTriggerEnter","EpicToonFX.ETFXTarget#Respawn","ETFXProjectileScript#init","ETFXProjectileScript#Start","ETFXProjectileScript#FixedUpdate","ETFXSceneManager#init","ETFXSceneManager#LoadScene2DDemo","ETFXSceneManager#LoadSceneCards","ETFXSceneManager#LoadSceneCombat","ETFXSceneManager#LoadSceneDecals","ETFXSceneManager#LoadSceneDecals2","ETFXSceneManager#LoadSceneEmojis","ETFXSceneManager#LoadSceneEmojis2","ETFXSceneManager#LoadSceneExplosions","ETFXSceneManager#LoadSceneExplosions2","ETFXSceneManager#LoadSceneFire","ETFXSceneManager#LoadSceneFire2","ETFXSceneManager#LoadSceneFire3","ETFXSceneManager#LoadSceneFireworks","ETFXSceneManager#LoadSceneFlares","ETFXSceneManager#LoadSceneMagic","ETFXSceneManager#LoadSceneMagic2","ETFXSceneManager#LoadSceneMagic3","ETFXSceneManager#LoadSceneMainDemo","ETFXSceneManager#LoadSceneMissiles","ETFXSceneManager#LoadScenePortals","ETFXSceneManager#LoadScenePortals2","ETFXSceneManager#LoadScenePowerups","ETFXSceneManager#LoadScenePowerups2","ETFXSceneManager#LoadSceneSparkles","ETFXSceneManager#LoadSceneSwordCombat","ETFXSceneManager#LoadSceneSwordCombat2","ETFXSceneManager#LoadSceneMoney","ETFXSceneManager#LoadSceneHealing","ETFXSceneManager#LoadSceneWind","ETFXSceneManager#Update","EventDispatcher#Instance#get","EventDispatcher#Instance#set","EventDispatcher#HasInstance","EventDispatcher#init","EventDispatcher#Awake","EventDispatcher#OnDestroy","EventDispatcher#RegisterListener","EventDispatcher#PostEvent","EventDispatcher#RemoveListener","EventDispatcher#ClearAllListener","EventDispatcherExtension#RegisterListener","EventDispatcherExtension#PostEvent$1","EventDispatcherExtension#PostEvent","EventDispatcherExtension#RemoveListener","SingletonMono$1#init","SingletonMono$1#Awake","HelperUtility#DecimalRounding","HelperUtility#DisruptiveArrayObject","HelperUtility#DisruptiveListObject$1","HelperUtility#DisruptiveListObject","HelperUtility#DisruptiveList","HelperUtility#DisruptiveListSelf","HelperUtility#SelectionSortList","HelperUtility#StartThread","HelperUtility#StartThread$1","HelperUtility#StartAction$1","HelperUtility#StartAction","HelperUtility#StartActionRealTime","HelperUtility#StartActionNotUseCorutines","HelperUtility#GetPointDistanceFromObject","HelperUtility#GetDirectionFromAngle","HelperUtility#GetDirectionFromAngle_2","HelperUtility#DOLocalRotateQuaternion","HelperUtility#GetRotateDirection","HelperUtility#LookAtToDirection","HelperUtility#LookAtToDirectionAngleDetal","HelperUtility#LookAtToPosition","HelperUtility#LookAtToPositionAngleDetal","HelperUtility#RandomCustom","HelperUtility#RandomUnduplicated$1","HelperUtility#RandomUnduplicated","HelperUtility#SetPos","HelperUtility#PosHandle","MainCharacter#init","MainCharacter#ActiveChoose","MainCharacter#UnActiveChoose","MainCharacter#SpawnCharacter","MainCharacter#SpawnerFXSmoke","MainCharacter#ChasingEnemy","MainCharacter#Update","MainCharacter#AnimationMove","MainCharacter#AnimationDie","MainCharacter#AnimationAttack","MainCharacter#Dying","MainCharacter#RotateFacing","MainCharacter#ApplyDamage","MainCharacter#OnTriggerEnter","LookAtCamera#Start","LookAtCamera#Update","MMMaths#Vector3ToVector2","MMMaths#Vector2ToVector3","MMMaths#Vector2ToVector3$1","MMMaths#RandomVector3","MMMaths#RotatePointAroundPivot","MMMaths#RotatePointAroundPivot$1","MMMaths#Sum","MMMaths#RollADice","MMMaths#Chance","MMMaths#Approach","NameTag#init","ParticleEffectsLibrary#init","ParticleEffectsLibrary#Awake","ParticleEffectsLibrary#Start","ParticleEffectsLibrary#GetCurrentPENameString","ParticleEffectsLibrary#PreviousParticleEffect","ParticleEffectsLibrary#NextParticleEffect","ParticleEffectsLibrary#SpawnParticleEffect","PEButtonScript#init","PEButtonScript#Start","PEButtonScript#OnPointerEnter","PEButtonScript#OnPointerExit","PEButtonScript#OnButtonClicked","PEDestoryTimed#Start","PEDestoryTimed#Update","RotateObject#Start","ShootingRaycast#init","ShootingRaycast#Update","ShootingRaycast#IEMergePlayer","ShootingRaycast#ResetAll","SimplePool#init","SimplePool#Init","SimplePool#PoolPreLoad","SimplePool#Preload","SimplePool#Spawn$3","SimplePool#Spawn$2","SimplePool#Spawn","SimplePool#Spawn$1","SimplePool#Despawn","SimplePool#GetStackCount","SimplePool#ClearPool","SimplePool.Pool#StackCount#get","SimplePool.Pool#init","SimplePool.Pool#ctor","SimplePool.Pool#Preload","SimplePool.Pool#Spawn$1","SimplePool.Pool#Spawn","SimplePool.Pool#Despawn","SingletonWithouMono$1#Instance#get","SingletonWithouMono$1#init","SingletonWithouMono$1#init","SingletonWithouMono$1#Initialize","SingletonWithouMono$1#Preload","UICanvasManager#init","UICanvasManager#Awake","UICanvasManager#Start","UICanvasManager#Update","UICanvasManager#UpdateToolTip","UICanvasManager#ClearToolTip","UICanvasManager#SelectPreviousPE","UICanvasManager#SelectNextPE","UICanvasManager#SpawnCurrentParticleEffect","UICanvasManager#UIButtonClick","VectorUlti#GetVectorFromAngle","VectorUlti#GetAngleFromVector","VectorUlti#Set$1","VectorUlti#Set","VectorUlti#Move","VectorUlti#ToVectorXZ","Baby#SpawnerBullet","BossHuggy#AttackDamage","BossHuggyNew#AttackDamage","BunnyBunzoCraft#Attacking","Singleton$1#Instance#get","Huggy09#ActiveEffectSlash","HuggyCraft#Attacking","HumanCraft#Attacking","HumanCraft#ApplyDamage","KillyWillyCraft#Attacking","GameManager1#inherits","GameManager1#Start","GameManager1#LogEndGame","GameManager1#InstallFullGame","GameManager2#inherits","GameManager2#init","GameManager2#OnEnable","GameManager2#Start","GameManager2#ActionAllCharacter","GameManager2#ActionAllEnemy","GameManager2#SetMergeLose","GameManager2#ActionAttack","GameManager2#IEAfterAttackFalse","GameManager2#IEAfterAttackWin","GameManager2#IEEndCard","GameManager2#LogEndGame","GameManager2#InstallFullGame","GameManager3#inherits","GameManager3#Start","GameManager3#ToTheEndGame","GameManager3#InstallFullGame","GameManager4#inherits","GameManager4#init","GameManager4#OnEnable","GameManager4#Start","GameManager4#ActionAllCharacter","GameManager4#ActionAllEnemy","GameManager4#UnActiveGuide","GameManager4#ActionAttack","GameManager4#IEAfterAttackWin","GameManager4#IENextWave2","GameManager4#EndCard","GameManager4#ToTheEndGame","GameManager4#InstallFullGame","GameManager6#inherits","GameManager6#init","GameManager6#OnEnable","GameManager6#Start","GameManager6#ActionAllCharacter","GameManager6#ActionAllEnemy","GameManager6#UnActiveGuide","GameManager6#ActionAttack","GameManager6#IEAfterAttackWin","GameManager6#IENextWave2","GameManager6#IENextWave3","GameManager6#ToTheEndGame","GameManager6#InstallFullGame","GlobalInstance#inherits","GlobalInstance#init","MergeHuggy1#inherits","MergeHuggy1#init","MergeHuggy1#OnEnable","MergeHuggy1#Start","MergeHuggy1#ActionAllCharacter","MergeHuggy1#ActionAllEnemy","MergeHuggy1#UnActiveGuide","MergeHuggy1#ActionAttack","MergeHuggy1#IEAfterAttackWin","MergeHuggy1#IENextWave2","MergeHuggy1#ToTheEndGame","MergeHuggy1#InstallFullGame","MergeHuggyCraft1#inherits","MergeHuggyCraft1#init","MergeHuggyCraft1#OnEnable","MergeHuggyCraft1#Start","MergeHuggyCraft1#MuteGameFunction","MergeHuggyCraft1#UnMuteGameFunction","MergeHuggyCraft1#ActionAllCharacter","MergeHuggyCraft1#ActionAllEnemy","MergeHuggyCraft1#UnActiveGuide","MergeHuggyCraft1#ActionAttack","MergeHuggyCraft1#IEAfterAttackWin","MergeHuggyCraft1#IENextWave2","MergeHuggyCraft1#ToTheEndGame","MergeHuggyCraft1#InstallFullGame","MergeHyper#inherits","MergeHyper#init","MergeHyper#OnEnable","MergeHyper#Start","MergeHyper#ActionAllCharacter","MergeHyper#ActionAllEnemy","MergeHyper#UnActiveGuide","MergeHyper#ActionAttack","MergeHyper#IEAfterAttackWin","MergeHyper#IENextWave2","MergeHyper#ToTheEndGame","MergeHyper#InstallFullGame","MergeHyper2#inherits","MergeHyper2#init","MergeHyper2#OnEnable","MergeHyper2#Start","MergeHyper2#ActionAllCharacter","MergeHyper2#ActionAllEnemy","MergeHyper2#UnActiveGuide","MergeHyper2#ActionAttack","MergeHyper2#IEAfterAttackWin","MergeHyper2#IENextWaveEnd","MergeHyper2#ToTheEndGame","MergeHyper2#InstallFullGame","SingletonDontDestroyOnLoad$1#Awake","SoundController#inherits","SoundController#PlaySoundChoose","SoundController#PlaySoundMerge","SoundController#PlaySoundWin","SoundController#PlaySoundLose","SoundController#PlaySoundPunch","SoundController#PlaySoundLightning","SoundController#PlaySoundFall","SoundController#PlaySoundFX","SoundController#PlaySoundBG","SoundController#StopSound"]' ) ); }
+if ( TRACE ) { TRACE( JSON.parse( '["AttackUniversal#init","AttackUniversal#Update","AttackUniversal#DetectCollision","AutoDestroy#init","AutoDestroy#OnEnable","AutoDestroy#Update","AutoDestroy#OnDestroy","AutoDestroy#OnDisable","AutoDestructor#init","AutoDestructor#OnEnable","AutoDestructor#AutoDestroy","AutoDestructor#OnDisable","EnemyController#init","EnemyController#AnimationMove","EnemyController#AnimationAttack","EnemyController#RunToTarget","EnemyController#ChasingPlayer","EnemyController#Update","EnemyController#AnimationDie","EnemyController#Dying","EnemyController#ApplyDamage","EnemyController#OnTriggerEnter","Boxophobic.StyledGUI.StyledBanner#$ctor3","Boxophobic.StyledGUI.StyledBanner#$ctor4","Boxophobic.StyledGUI.StyledBanner#ctor","Boxophobic.StyledGUI.StyledBanner#$ctor1","Boxophobic.StyledGUI.StyledBanner#$ctor5","Boxophobic.StyledGUI.StyledBanner#$ctor2","Boxophobic.StyledGUI.StyledButton#init","Boxophobic.StyledGUI.StyledButton#ctor","Boxophobic.StyledGUI.StyledButton#$ctor1","Boxophobic.StyledGUI.StyledCategory#ctor","Boxophobic.StyledGUI.StyledCategory#$ctor1","Boxophobic.StyledGUI.StyledCategory#$ctor3","Boxophobic.StyledGUI.StyledCategory#$ctor2","Boxophobic.StyledGUI.StyledEnum#init","Boxophobic.StyledGUI.StyledEnum#ctor","Boxophobic.StyledGUI.StyledEnum#$ctor1","Boxophobic.StyledGUI.StyledIndent#ctor","Boxophobic.StyledGUI.StyledInteractive#ctor","Boxophobic.StyledGUI.StyledLayers#init","Boxophobic.StyledGUI.StyledLayers#ctor","Boxophobic.StyledGUI.StyledLayers#$ctor1","Boxophobic.StyledGUI.StyledMask#init","Boxophobic.StyledGUI.StyledMask#ctor","Boxophobic.StyledGUI.StyledMask#$ctor1","Boxophobic.StyledGUI.StyledMessage#ctor","Boxophobic.StyledGUI.StyledMessage#$ctor1","Boxophobic.StyledGUI.StyledRangeOptions#ctor","Boxophobic.StyledGUI.StyledSpace#ctor","Boxophobic.StyledGUI.StyledText#init","Boxophobic.StyledGUI.StyledText#ctor","Boxophobic.StyledGUI.StyledText#$ctor1","Boxophobic.StyledGUI.StyledText#$ctor2","Boxophobic.StyledGUI.StyledTexturePreview#init","Boxophobic.StyledGUI.StyledTexturePreview#ctor","Boxophobic.StyledGUI.StyledTexturePreview#$ctor1","Boxophobic.Utils.SettingsData#init","CharacterController#init","CharacterController#ActiveChoose","CharacterController#UnActiveChoose","CharacterController#SpawnCharacter","CharacterController#SpawnerFXSmoke","CharacterController#RunToTarget","CharacterController#ChasingEnemy","CharacterController#Update","CharacterController#AnimationMove","CharacterController#AnimationDie","CharacterController#AnimationAttack","CharacterController#Dying","CharacterController#RotateFacing","CharacterController#ApplyDamage","CharacterController#OnTriggerEnter","CharacterHuggy#init","CharacterHuggy#ActiveChoose","CharacterHuggy#UnActiveChoose","CharacterHuggy#SpawnCharacter","CharacterHuggy#SpawnerFXSmoke","CharacterHuggy#RunToTarget","CharacterHuggy#ChasingEnemy","CharacterHuggy#Update","CharacterHuggy#AnimationMove","CharacterHuggy#AnimationDie","CharacterHuggy#AnimationAttack","CharacterHuggy#Dying","CharacterHuggy#RotateFacing","CharacterHuggy#ApplyDamage","CharacterHuggy#OnTriggerEnter","ClickDeactive#Start","ClickDeactive#Update","DefineHelper#init","DG.Tweening.DOTweenCYInstruction.WaitForCompletion#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForCompletion#ctor","DG.Tweening.DOTweenCYInstruction.WaitForElapsedLoops#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForElapsedLoops#ctor","DG.Tweening.DOTweenCYInstruction.WaitForKill#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForKill#ctor","DG.Tweening.DOTweenCYInstruction.WaitForPosition#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForPosition#ctor","DG.Tweening.DOTweenCYInstruction.WaitForRewind#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForRewind#ctor","DG.Tweening.DOTweenCYInstruction.WaitForStart#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForStart#ctor","DG.Tweening.DOTweenModuleAudio#DOFade","DG.Tweening.DOTweenModuleAudio#DOPitch","DG.Tweening.DOTweenModuleAudio#DOSetFloat","DG.Tweening.DOTweenModuleAudio#DOComplete","DG.Tweening.DOTweenModuleAudio#DOKill","DG.Tweening.DOTweenModuleAudio#DOFlip","DG.Tweening.DOTweenModuleAudio#DOGoto","DG.Tweening.DOTweenModuleAudio#DOPause","DG.Tweening.DOTweenModuleAudio#DOPlay","DG.Tweening.DOTweenModuleAudio#DOPlayBackwards","DG.Tweening.DOTweenModuleAudio#DOPlayForward","DG.Tweening.DOTweenModuleAudio#DORestart","DG.Tweening.DOTweenModuleAudio#DORewind","DG.Tweening.DOTweenModuleAudio#DOSmoothRewind","DG.Tweening.DOTweenModuleAudio#DOTogglePause","DG.Tweening.DOTweenModulePhysics#DOMove","DG.Tweening.DOTweenModulePhysics#DOMoveX","DG.Tweening.DOTweenModulePhysics#DOMoveY","DG.Tweening.DOTweenModulePhysics#DOMoveZ","DG.Tweening.DOTweenModulePhysics#DORotate","DG.Tweening.DOTweenModulePhysics#DOLookAt","DG.Tweening.DOTweenModulePhysics#DOJump","DG.Tweening.DOTweenModulePhysics#DOPath","DG.Tweening.DOTweenModulePhysics#DOPath$1","DG.Tweening.DOTweenModulePhysics#DOLocalPath","DG.Tweening.DOTweenModulePhysics#DOLocalPath$1","DG.Tweening.DOTweenModuleSprite#DOColor","DG.Tweening.DOTweenModuleSprite#DOFade","DG.Tweening.DOTweenModuleSprite#DOGradientColor","DG.Tweening.DOTweenModuleSprite#DOBlendableColor","DG.Tweening.DOTweenModuleUI#DOFade","DG.Tweening.DOTweenModuleUI#DOFade$1","DG.Tweening.DOTweenModuleUI#DOFade$2","DG.Tweening.DOTweenModuleUI#DOFade$3","DG.Tweening.DOTweenModuleUI#DOFade$4","DG.Tweening.DOTweenModuleUI#DOColor","DG.Tweening.DOTweenModuleUI#DOColor$1","DG.Tweening.DOTweenModuleUI#DOColor$2","DG.Tweening.DOTweenModuleUI#DOColor$3","DG.Tweening.DOTweenModuleUI#DOFillAmount","DG.Tweening.DOTweenModuleUI#DOGradientColor","DG.Tweening.DOTweenModuleUI#DOFlexibleSize","DG.Tweening.DOTweenModuleUI#DOMinSize","DG.Tweening.DOTweenModuleUI#DOPreferredSize","DG.Tweening.DOTweenModuleUI#DOScale","DG.Tweening.DOTweenModuleUI#DOAnchorPos","DG.Tweening.DOTweenModuleUI#DOAnchorPosX","DG.Tweening.DOTweenModuleUI#DOAnchorPosY","DG.Tweening.DOTweenModuleUI#DOAnchorPos3D","DG.Tweening.DOTweenModuleUI#DOAnchorPos3DX","DG.Tweening.DOTweenModuleUI#DOAnchorPos3DY","DG.Tweening.DOTweenModuleUI#DOAnchorPos3DZ","DG.Tweening.DOTweenModuleUI#DOAnchorMax","DG.Tweening.DOTweenModuleUI#DOAnchorMin","DG.Tweening.DOTweenModuleUI#DOPivot","DG.Tweening.DOTweenModuleUI#DOPivotX","DG.Tweening.DOTweenModuleUI#DOPivotY","DG.Tweening.DOTweenModuleUI#DOSizeDelta","DG.Tweening.DOTweenModuleUI#DOPunchAnchorPos","DG.Tweening.DOTweenModuleUI#DOShakeAnchorPos","DG.Tweening.DOTweenModuleUI#DOShakeAnchorPos$1","DG.Tweening.DOTweenModuleUI#DOJumpAnchorPos","DG.Tweening.DOTweenModuleUI#DONormalizedPos","DG.Tweening.DOTweenModuleUI#DOHorizontalNormalizedPos","DG.Tweening.DOTweenModuleUI#DOVerticalNormalizedPos","DG.Tweening.DOTweenModuleUI#DOValue","DG.Tweening.DOTweenModuleUI#DOCounter","DG.Tweening.DOTweenModuleUI#DOText","DG.Tweening.DOTweenModuleUI#DOBlendableColor","DG.Tweening.DOTweenModuleUI#DOBlendableColor$1","DG.Tweening.DOTweenModuleUI#DOBlendableColor$2","DG.Tweening.DOTweenModuleUI#DOShapeCircle","DG.Tweening.DOTweenModuleUI.Utils#SwitchToRectTransform","DG.Tweening.DOTweenModuleUnityVersion#DOGradientColor","DG.Tweening.DOTweenModuleUnityVersion#DOGradientColor$1","DG.Tweening.DOTweenModuleUnityVersion#WaitForCompletion","DG.Tweening.DOTweenModuleUnityVersion#WaitForRewind","DG.Tweening.DOTweenModuleUnityVersion#WaitForKill","DG.Tweening.DOTweenModuleUnityVersion#WaitForElapsedLoops","DG.Tweening.DOTweenModuleUnityVersion#WaitForPosition","DG.Tweening.DOTweenModuleUnityVersion#WaitForStart","DG.Tweening.DOTweenModuleUnityVersion#DOOffset","DG.Tweening.DOTweenModuleUnityVersion#DOTiling","DG.Tweening.DOTweenModuleUtils#Init","DG.Tweening.DOTweenModuleUtils#Preserver","DG.Tweening.DOTweenModuleUtils.Physics#SetOrientationOnPath","DG.Tweening.DOTweenModuleUtils.Physics#HasRigidbody2D","DG.Tweening.DOTweenModuleUtils.Physics#HasRigidbody","DG.Tweening.DOTweenModuleUtils.Physics#CreateDOTweenPathTween","DrawLine#init","DrawLine#Start","DrawLine#Update","DrawLine#GetMousePosition","DrawLine#SetLineColor","DrawLine#SetLineWidth","DrawLineCanvas#init","DrawLineCanvas#Update","DrawLineCanvas#GetMousePosition","DrawLineCanvas#StartDrawingLine","DrawLineCanvas#PreviewLine","DrawLineCanvas#EndDrawingLine","EpicToonFX.ETFXButtonScript#Start","EpicToonFX.ETFXButtonScript#Update","EpicToonFX.ETFXButtonScript#getProjectileNames","EpicToonFX.ETFXButtonScript#overButton","EpicToonFX.ETFXFireProjectile#init","EpicToonFX.ETFXFireProjectile#Start","EpicToonFX.ETFXFireProjectile#Update","EpicToonFX.ETFXFireProjectile#nextEffect","EpicToonFX.ETFXFireProjectile#previousEffect","EpicToonFX.ETFXFireProjectile#AdjustSpeed","EpicToonFX.ETFXLightFade#init","EpicToonFX.ETFXLightFade#Start","EpicToonFX.ETFXLightFade#Update","EpicToonFX.ETFXLoopScript#init","EpicToonFX.ETFXLoopScript#Start","EpicToonFX.ETFXLoopScript#PlayEffect","EpicToonFX.ETFXLoopScript#EffectLoop","EpicToonFX.ETFXMouseOrbit#ClampAngle","EpicToonFX.ETFXMouseOrbit#init","EpicToonFX.ETFXMouseOrbit#Start","EpicToonFX.ETFXMouseOrbit#LateUpdate","EpicToonFX.ETFXPitchRandomizer#init","EpicToonFX.ETFXPitchRandomizer#Start","EpicToonFX.ETFXRotation#init","EpicToonFX.ETFXRotation#Start","EpicToonFX.ETFXRotation#Update","EpicToonFX.ETFXTarget#Start","EpicToonFX.ETFXTarget#SpawnTarget","EpicToonFX.ETFXTarget#OnTriggerEnter","EpicToonFX.ETFXTarget#Respawn","ETFXProjectileScript#init","ETFXProjectileScript#Start","ETFXProjectileScript#FixedUpdate","ETFXSceneManager#init","ETFXSceneManager#LoadScene2DDemo","ETFXSceneManager#LoadSceneCards","ETFXSceneManager#LoadSceneCombat","ETFXSceneManager#LoadSceneDecals","ETFXSceneManager#LoadSceneDecals2","ETFXSceneManager#LoadSceneEmojis","ETFXSceneManager#LoadSceneEmojis2","ETFXSceneManager#LoadSceneExplosions","ETFXSceneManager#LoadSceneExplosions2","ETFXSceneManager#LoadSceneFire","ETFXSceneManager#LoadSceneFire2","ETFXSceneManager#LoadSceneFire3","ETFXSceneManager#LoadSceneFireworks","ETFXSceneManager#LoadSceneFlares","ETFXSceneManager#LoadSceneMagic","ETFXSceneManager#LoadSceneMagic2","ETFXSceneManager#LoadSceneMagic3","ETFXSceneManager#LoadSceneMainDemo","ETFXSceneManager#LoadSceneMissiles","ETFXSceneManager#LoadScenePortals","ETFXSceneManager#LoadScenePortals2","ETFXSceneManager#LoadScenePowerups","ETFXSceneManager#LoadScenePowerups2","ETFXSceneManager#LoadSceneSparkles","ETFXSceneManager#LoadSceneSwordCombat","ETFXSceneManager#LoadSceneSwordCombat2","ETFXSceneManager#LoadSceneMoney","ETFXSceneManager#LoadSceneHealing","ETFXSceneManager#LoadSceneWind","ETFXSceneManager#Update","EventDispatcher#Instance#get","EventDispatcher#Instance#set","EventDispatcher#HasInstance","EventDispatcher#init","EventDispatcher#Awake","EventDispatcher#OnDestroy","EventDispatcher#RegisterListener","EventDispatcher#PostEvent","EventDispatcher#RemoveListener","EventDispatcher#ClearAllListener","EventDispatcherExtension#RegisterListener","EventDispatcherExtension#PostEvent$1","EventDispatcherExtension#PostEvent","EventDispatcherExtension#RemoveListener","SingletonMono$1#init","SingletonMono$1#Awake","HelperUtility#DecimalRounding","HelperUtility#DisruptiveArrayObject","HelperUtility#DisruptiveListObject$1","HelperUtility#DisruptiveListObject","HelperUtility#DisruptiveList","HelperUtility#DisruptiveListSelf","HelperUtility#SelectionSortList","HelperUtility#StartThread","HelperUtility#StartThread$1","HelperUtility#StartAction$1","HelperUtility#StartAction","HelperUtility#StartActionRealTime","HelperUtility#StartActionNotUseCorutines","HelperUtility#GetPointDistanceFromObject","HelperUtility#GetDirectionFromAngle","HelperUtility#GetDirectionFromAngle_2","HelperUtility#DOLocalRotateQuaternion","HelperUtility#GetRotateDirection","HelperUtility#LookAtToDirection","HelperUtility#LookAtToDirectionAngleDetal","HelperUtility#LookAtToPosition","HelperUtility#LookAtToPositionAngleDetal","HelperUtility#RandomCustom","HelperUtility#RandomUnduplicated$1","HelperUtility#RandomUnduplicated","HelperUtility#SetPos","HelperUtility#PosHandle","MainCharacter#init","MainCharacter#ActiveChoose","MainCharacter#UnActiveChoose","MainCharacter#SpawnCharacter","MainCharacter#SpawnerFXSmoke","MainCharacter#ChasingEnemy","MainCharacter#Update","MainCharacter#AnimationMove","MainCharacter#AnimationDie","MainCharacter#AnimationAttack","MainCharacter#Dying","MainCharacter#RotateFacing","MainCharacter#ApplyDamage","MainCharacter#OnTriggerEnter","LookAtCamera#Start","LookAtCamera#Update","MMMaths#Vector3ToVector2","MMMaths#Vector2ToVector3","MMMaths#Vector2ToVector3$1","MMMaths#RandomVector3","MMMaths#RotatePointAroundPivot","MMMaths#RotatePointAroundPivot$1","MMMaths#Sum","MMMaths#RollADice","MMMaths#Chance","MMMaths#Approach","NameTag#init","PanCraft#Start","PanCraft#Update","ParticleEffectsLibrary#init","ParticleEffectsLibrary#Awake","ParticleEffectsLibrary#Start","ParticleEffectsLibrary#GetCurrentPENameString","ParticleEffectsLibrary#PreviousParticleEffect","ParticleEffectsLibrary#NextParticleEffect","ParticleEffectsLibrary#SpawnParticleEffect","PEButtonScript#init","PEButtonScript#Start","PEButtonScript#OnPointerEnter","PEButtonScript#OnPointerExit","PEButtonScript#OnButtonClicked","PEDestoryTimed#Start","PEDestoryTimed#Update","RotateObject#Start","ShootingRaycast#init","ShootingRaycast#Update","ShootingRaycast#IEMergePlayer","ShootingRaycast#ResetAll","SimplePool#init","SimplePool#Init","SimplePool#PoolPreLoad","SimplePool#Preload","SimplePool#Spawn$3","SimplePool#Spawn$2","SimplePool#Spawn","SimplePool#Spawn$1","SimplePool#Despawn","SimplePool#GetStackCount","SimplePool#ClearPool","SimplePool.Pool#StackCount#get","SimplePool.Pool#init","SimplePool.Pool#ctor","SimplePool.Pool#Preload","SimplePool.Pool#Spawn$1","SimplePool.Pool#Spawn","SimplePool.Pool#Despawn","SingletonWithouMono$1#Instance#get","SingletonWithouMono$1#init","SingletonWithouMono$1#init","SingletonWithouMono$1#Initialize","SingletonWithouMono$1#Preload","UICanvasManager#init","UICanvasManager#Awake","UICanvasManager#Start","UICanvasManager#Update","UICanvasManager#UpdateToolTip","UICanvasManager#ClearToolTip","UICanvasManager#SelectPreviousPE","UICanvasManager#SelectNextPE","UICanvasManager#SpawnCurrentParticleEffect","UICanvasManager#UIButtonClick","VectorUlti#GetVectorFromAngle","VectorUlti#GetAngleFromVector","VectorUlti#Set$1","VectorUlti#Set","VectorUlti#Move","VectorUlti#ToVectorXZ","Baby#SpawnerBullet","BossHuggy#AttackDamage","BossHuggyNew#AttackDamage","BunnyBunzoCraft#Attacking","DrawLineTutorial#init","DrawLineTutorial#Update","DrawLineTutorial#StartDrawing","DrawLineTutorial#StopDrawing","DrawLineTutorial#GetCurrentPosition","Singleton$1#Instance#get","Huggy09#ActiveEffectSlash","HuggyCraft#Attacking","HumanCraft#Attacking","HumanCraft#ApplyDamage","KillyWillyCraft#Attacking","GameManager1#inherits","GameManager1#Start","GameManager1#LogEndGame","GameManager1#InstallFullGame","GameManager2#inherits","GameManager2#init","GameManager2#OnEnable","GameManager2#Start","GameManager2#ActionAllCharacter","GameManager2#ActionAllEnemy","GameManager2#SetMergeLose","GameManager2#ActionAttack","GameManager2#IEAfterAttackFalse","GameManager2#IEAfterAttackWin","GameManager2#IEEndCard","GameManager2#LogEndGame","GameManager2#InstallFullGame","GameManager3#inherits","GameManager3#Start","GameManager3#ToTheEndGame","GameManager3#InstallFullGame","GameManager4#inherits","GameManager4#init","GameManager4#OnEnable","GameManager4#Start","GameManager4#ActionAllCharacter","GameManager4#ActionAllEnemy","GameManager4#UnActiveGuide","GameManager4#ActionAttack","GameManager4#IEAfterAttackWin","GameManager4#IENextWave2","GameManager4#EndCard","GameManager4#ToTheEndGame","GameManager4#InstallFullGame","GameManager6#inherits","GameManager6#init","GameManager6#OnEnable","GameManager6#Start","GameManager6#ActionAllCharacter","GameManager6#ActionAllEnemy","GameManager6#UnActiveGuide","GameManager6#ActionAttack","GameManager6#IEAfterAttackWin","GameManager6#IENextWave2","GameManager6#IENextWave3","GameManager6#ToTheEndGame","GameManager6#InstallFullGame","GlobalInstance#inherits","GlobalInstance#init","MergeHuggy1#inherits","MergeHuggy1#init","MergeHuggy1#OnEnable","MergeHuggy1#Start","MergeHuggy1#ActionAllCharacter","MergeHuggy1#ActionAllEnemy","MergeHuggy1#UnActiveGuide","MergeHuggy1#ActionAttack","MergeHuggy1#IEAfterAttackWin","MergeHuggy1#IENextWave2","MergeHuggy1#ToTheEndGame","MergeHuggy1#InstallFullGame","MergeHuggyCraft1#inherits","MergeHuggyCraft1#init","MergeHuggyCraft1#OnEnable","MergeHuggyCraft1#Start","MergeHuggyCraft1#MuteGameFunction","MergeHuggyCraft1#UnMuteGameFunction","MergeHuggyCraft1#ActionAllCharacter","MergeHuggyCraft1#ActionAllEnemy","MergeHuggyCraft1#UnActiveGuide","MergeHuggyCraft1#ActionAttack","MergeHuggyCraft1#IEAfterAttackWin","MergeHuggyCraft1#IENextWave2","MergeHuggyCraft1#ToTheEndGame","MergeHuggyCraft1#InstallFullGame","MergeHyper#inherits","MergeHyper#init","MergeHyper#OnEnable","MergeHyper#Start","MergeHyper#ActionAllCharacter","MergeHyper#ActionAllEnemy","MergeHyper#UnActiveGuide","MergeHyper#ActionAttack","MergeHyper#IEAfterAttackWin","MergeHyper#IENextWave2","MergeHyper#ToTheEndGame","MergeHyper#InstallFullGame","MergeHyper2#inherits","MergeHyper2#init","MergeHyper2#OnEnable","MergeHyper2#Start","MergeHyper2#ActionAllCharacter","MergeHyper2#ActionAllEnemy","MergeHyper2#UnActiveGuide","MergeHyper2#ActionAttack","MergeHyper2#IEAfterAttackWin","MergeHyper2#IENextWaveEnd","MergeHyper2#ToTheEndGame","MergeHyper2#InstallFullGame","SingletonDontDestroyOnLoad$1#Awake","SoundController#inherits","SoundController#PlaySoundChoose","SoundController#PlaySoundMerge","SoundController#PlaySoundWin","SoundController#PlaySoundLose","SoundController#PlaySoundPunch","SoundController#PlaySoundLightning","SoundController#PlaySoundFall","SoundController#PlaySoundFX","SoundController#PlaySoundBG","SoundController#StopSound"]' ) ); }
 /**
- * @version 1.0.8220.25377
+ * @version 1.0.8242.29230
  * @copyright anton
- * @compiler Bridge.NET 17.9.14-luna
+ * @compiler Bridge.NET 17.9.19-luna
  */
 Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
     "use strict";
@@ -289,6 +289,9 @@ if ( TRACE ) { TRACE( "EnemyController#ChasingPlayer", this ); }
 if ( TRACE ) { TRACE( "EnemyController#Update", this ); }
 
                 if (this.isTargetEnemy && this.isAlive) {
+                    while (!this.playerTarget.activeSelf) {
+                        this.ChasingPlayer();
+                    }
                     this.transform.LookAt(this.playerTarget.transform);
                     if (pc.Vec3.distance( this.transform.position, this.playerTarget.transform.position ) >= this.minDist) {
                         if (!this.flagAnim1) {
@@ -323,10 +326,11 @@ if ( TRACE ) { TRACE( "EnemyController#AnimationDie", this ); }
             Dying: function () {
 if ( TRACE ) { TRACE( "EnemyController#Dying", this ); }
 
+                //Debug.Log("Dead");
                 //canvas.SetActive(false);
                 this.shadow.SetActive(false);
                 this.AnimationDie();
-                DG.Tweening.TweenSettingsExtensions.SetDelay(DG.Tweening.Core.TweenerCore$3(UnityEngine.Vector3,UnityEngine.Vector3,DG.Tweening.Plugins.Options.VectorOptions), DG.Tweening.ShortcutExtensions.DOMove(this.transform, new pc.Vec3( this.transform.position.x, this.yDie, this.transform.position.z - this.zDie ), 0.6), 0.4);
+                //transform.DOMove(new Vector3(transform.position.x, yDie, transform.position.z - zDie), 0.6f).SetDelay(0.4f);
             },
             /*EnemyController.Dying end.*/
 
@@ -1368,6 +1372,31 @@ if ( TRACE ) { TRACE( "CharacterHuggy#OnTriggerEnter", this ); }
         }
     });
     /*CharacterHuggy end.*/
+
+    /*ClickDeactive start.*/
+    Bridge.define("ClickDeactive", {
+        inherits: [UnityEngine.MonoBehaviour],
+        methods: {
+            /*ClickDeactive.Start start.*/
+            Start: function () {
+if ( TRACE ) { TRACE( "ClickDeactive#Start", this ); }
+
+
+            },
+            /*ClickDeactive.Start end.*/
+
+            /*ClickDeactive.Update start.*/
+            Update: function () {
+if ( TRACE ) { TRACE( "ClickDeactive#Update", this ); }
+
+
+            },
+            /*ClickDeactive.Update end.*/
+
+
+        }
+    });
+    /*ClickDeactive end.*/
 
     /*DefineHelper start.*/
     Bridge.define("DefineHelper", {
@@ -6788,11 +6817,13 @@ if ( TRACE ) { TRACE( "HelperUtility#PosHandle", this ); }
             isChoosed: false,
             _propBlock: null,
             meshRenderer: null,
+            meshRenderers: null,
             enemyTarget: null,
             isTargetEnemy: false,
             speedMove: 0,
             maxDist: 0,
             minDist: 0,
+            spinRate: 0,
             flagAnim1: false,
             flagAnim2: false
         },
@@ -6805,6 +6836,7 @@ if ( TRACE ) { TRACE( "MainCharacter#init", this ); }
                 this.speedMove = 0.9;
                 this.maxDist = 1;
                 this.minDist = 1;
+                this.spinRate = 0;
             }
         },
         methods: {
@@ -6873,7 +6905,11 @@ if ( TRACE ) { TRACE( "MainCharacter#ChasingEnemy", this ); }
             Update: function () {
 if ( TRACE ) { TRACE( "MainCharacter#Update", this ); }
 
+                if (!this.isTargetEnemy && this.isAlive) {
+                    this.transform.Rotate(0, this.spinRate * UnityEngine.Time.deltaTime, 0);
+                }
                 if (this.isTargetEnemy && this.isAlive) {
+
                     this.transform.LookAt(this.enemyTarget.transform);
                     if (pc.Vec3.distance( this.transform.position, this.enemyTarget.transform.position ) >= this.minDist) {
                         if (!this.flagAnim1) {
@@ -6947,14 +6983,61 @@ if ( TRACE ) { TRACE( "MainCharacter#RotateFacing", this ); }
             ApplyDamage: function () {
 if ( TRACE ) { TRACE( "MainCharacter#ApplyDamage", this ); }
 
+                var $t, $t1;
                 this._propBlock = new UnityEngine.MaterialPropertyBlock();
-                this.meshRenderer.GetPropertyBlock(this._propBlock);
+                if (this.meshRenderers.Count === 0) {
+                    this.meshRenderer.GetPropertyBlock(this._propBlock);
+                } else {
+                    $t = Bridge.getEnumerator(this.meshRenderers);
+                    try {
+                        while ($t.moveNext()) {
+                            var mesh = $t.Current;
+                            mesh.GetPropertyBlock(this._propBlock);
+                        }
+                    } finally {
+                        if (Bridge.is($t, System.IDisposable)) {
+                            $t.System$IDisposable$Dispose();
+                        }
+                    }
+                }
                 this._propBlock.SetColor$1("_Color", new pc.Color( 1, 0, 0, 1 ));
                 //ChangeColor();
-                this.meshRenderer.SetPropertyBlock(this._propBlock);
-                this.StartCoroutine$1(HelperUtility.StartAction$1(Bridge.fn.bind(this, function () {
-                    this._propBlock.SetColor$1("_Color", UnityEngine.Color32.op_Implicit(new UnityEngine.Color32.$ctor1(217, 217, 217, 255)));
+                if (this.meshRenderers.Count === 0) {
                     this.meshRenderer.SetPropertyBlock(this._propBlock);
+                } else {
+                    $t1 = Bridge.getEnumerator(this.meshRenderers);
+                    try {
+                        while ($t1.moveNext()) {
+                            var mesh1 = $t1.Current;
+                            mesh1.SetPropertyBlock(this._propBlock);
+                        }
+                    } finally {
+                        if (Bridge.is($t1, System.IDisposable)) {
+                            $t1.System$IDisposable$Dispose();
+                        }
+                    }
+                }
+
+                this.StartCoroutine$1(HelperUtility.StartAction$1(Bridge.fn.bind(this, function () {
+                    var $t2;
+                    if (this.meshRenderers.Count === 0) {
+                        this._propBlock.SetColor$1("_Color", UnityEngine.Color32.op_Implicit(new UnityEngine.Color32.$ctor1(217, 217, 217, 255)));
+                        this.meshRenderer.SetPropertyBlock(this._propBlock);
+                    } else {
+                        $t2 = Bridge.getEnumerator(this.meshRenderers);
+                        try {
+                            while ($t2.moveNext()) {
+                                var mesh2 = $t2.Current;
+                                this._propBlock.SetColor$1("_Color", UnityEngine.Color32.op_Implicit(new UnityEngine.Color32.$ctor1(217, 217, 217, 255)));
+                                mesh2.SetPropertyBlock(this._propBlock);
+                            }
+                        } finally {
+                            if (Bridge.is($t2, System.IDisposable)) {
+                                $t2.System$IDisposable$Dispose();
+                            }
+                        }
+                    }
+
                 }), 0.3));
             },
             /*MainCharacter.ApplyDamage end.*/
@@ -7257,6 +7340,31 @@ if ( TRACE ) { TRACE( "NameTag#init", this ); }
     });
     /*NameTag end.*/
 
+    /*PanCraft start.*/
+    Bridge.define("PanCraft", {
+        inherits: [UnityEngine.MonoBehaviour],
+        methods: {
+            /*PanCraft.Start start.*/
+            Start: function () {
+if ( TRACE ) { TRACE( "PanCraft#Start", this ); }
+
+
+            },
+            /*PanCraft.Start end.*/
+
+            /*PanCraft.Update start.*/
+            Update: function () {
+if ( TRACE ) { TRACE( "PanCraft#Update", this ); }
+
+
+            },
+            /*PanCraft.Update end.*/
+
+
+        }
+    });
+    /*PanCraft end.*/
+
     /*ParticleEffectsLibrary start.*/
     Bridge.define("ParticleEffectsLibrary", {
         inherits: [UnityEngine.MonoBehaviour],
@@ -7557,6 +7665,7 @@ if ( TRACE ) { TRACE( "ShootingRaycast#Update", this ); }
                             this.ray = UnityEngine.Camera.main.ScreenPointToRay(UnityEngine.Input.mousePosition.$clone());
                             if (UnityEngine.Physics.Raycast$1(this.ray, hit, window.Infinity, 512)) {
                                 var select = hit.v.transform;
+                                //if (select.gameObject.name == "4.pan") Debug.Log("Hit pan");
                                 if (select.transform.CompareTag(NameTag.Player)) {
                                     var charController = select.GetComponent(MainCharacter);
                                     if (!charController.isChoosed) {
@@ -8455,6 +8564,94 @@ if ( TRACE ) { TRACE( "BunnyBunzoCraft#Attacking", this ); }
     });
     /*BunnyBunzoCraft end.*/
 
+    /*DrawLineTutorial start.*/
+    Bridge.define("DrawLineTutorial", {
+        inherits: [DrawLine],
+        fields: {
+            drawPoint: null,
+            drawManager: null,
+            isDrawing: false
+        },
+        ctors: {
+            init: function () {
+if ( TRACE ) { TRACE( "DrawLineTutorial#init", this ); }
+
+                this.isDrawing = false;
+            }
+        },
+        methods: {
+            /*DrawLineTutorial.Update start.*/
+            Update: function () {
+if ( TRACE ) { TRACE( "DrawLineTutorial#Update", this ); }
+
+                if (!Singleton$1(GlobalInstance).Instance.gameManagerInstance.isEndGame) {
+                    if (Singleton$1(GlobalInstance).Instance.gameManagerInstance.isCanDraw && this.isDrawing) {
+                        this.timer -= UnityEngine.Time.deltaTime;
+                        if (this.timer <= 0) {
+                            this.lineColor.a = 255;
+                            this.SetLineColor(this.lineColor.$clone());
+                            this.lstLinePoints.add(this.GetCurrentPosition());
+                            this.currentLine.positionCount = this.lstLinePoints.Count;
+                            this.currentLine.SetPositions(this.lstLinePoints.ToArray());
+                            this.timer = this.timeDelay;
+                        }
+                    }
+                }
+                //if (Input.GetMouseButtonDown(0))
+                //{
+                //    StopDrawing();
+                //    drawManager.SetActive(false);
+                //}
+            },
+            /*DrawLineTutorial.Update end.*/
+
+            /*DrawLineTutorial.StartDrawing start.*/
+            StartDrawing: function () {
+if ( TRACE ) { TRACE( "DrawLineTutorial#StartDrawing", this ); }
+
+                this.lineColor.a = 0;
+                this.lstLinePoints = new (System.Collections.Generic.List$1(UnityEngine.Vector3)).ctor();
+                this.timer = this.timeDelay;
+                this.currentLine = UnityEngine.Object.Instantiate(UnityEngine.GameObject, this.linePref, this.drawManager.transform).GetComponent(UnityEngine.LineRenderer);
+                //Time.timeScale = 0;
+                this.SetLineColor(this.lineColor.$clone());
+                this.SetLineWidth(this.lineWidth);
+                this.isDrawing = true;
+                this.Update();
+            },
+            /*DrawLineTutorial.StartDrawing end.*/
+
+            /*DrawLineTutorial.StopDrawing start.*/
+            StopDrawing: function () {
+if ( TRACE ) { TRACE( "DrawLineTutorial#StopDrawing", this ); }
+
+                this.lstLinePoints.clear();
+                if (UnityEngine.Object.op_Implicit(this.currentLine)) {
+                    UnityEngine.Object.Destroy(this.currentLine);
+                }
+            },
+            /*DrawLineTutorial.StopDrawing end.*/
+
+            /*DrawLineTutorial.GetCurrentPosition start.*/
+            GetCurrentPosition: function () {
+if ( TRACE ) { TRACE( "DrawLineTutorial#GetCurrentPosition", this ); }
+
+                var ray = UnityEngine.Camera.main.ScreenPointToRay(UnityEngine.Camera.main.WorldToScreenPoint(this.drawPoint.position));
+                var hit = { v : new UnityEngine.RaycastHit() };
+                if (UnityEngine.Physics.Raycast$1(ray, hit, 1000)) {
+                    if (hit.v.transform.CompareTag(NameTag.FakeGround)) {
+                        return hit.v.point.$clone();
+                    }
+                }
+                return ray.origin.$clone().add( ray.direction.$clone().clone().scale( 10 ) );
+            },
+            /*DrawLineTutorial.GetCurrentPosition end.*/
+
+
+        }
+    });
+    /*DrawLineTutorial end.*/
+
     /*Singleton$1 start.*/
     Bridge.define("Singleton$1", function (T) { return {
         inherits: [SingletonMono$1(T)],
@@ -8469,7 +8666,7 @@ if ( TRACE ) { TRACE( "Singleton$1#Instance#get", this ); }
                         }
                         SingletonMono$1(T).instance = Bridge.cast(UnityEngine.Object.FindObjectOfType$1(T), T);
                         if (Bridge.rValue(SingletonMono$1(T).instance) == null) {
-                            UnityEngine.Debug.LogWarningFormat("[Singleton] Class {0} not found! Create empty instance", [T]);
+                            //Debug.LogWarningFormat("[Singleton] Class {0} not found! Create empty instance", typeof(T));
                             SingletonMono$1(T).instance = Bridge.rValue(new UnityEngine.GameObject.$ctor2(Bridge.Reflection.getTypeName(T)).AddComponent(T));
                         }
                         return Bridge.rValue(SingletonMono$1(T).instance);
@@ -9071,7 +9268,7 @@ if ( TRACE ) { TRACE( "GameManager4#UnActiveGuide", this ); }
             ActionAttack: function () {
 if ( TRACE ) { TRACE( "GameManager4#ActionAttack", this ); }
 
-                Luna.Unity.Analytics.LogEvent$1("Attack Phase1 ", 0);
+                //Luna.Unity.Analytics.LogEvent("Attack Phase1 ", 0);
                 this.guideAttack.SetActive(false);
                 this.ActionAllCharacter();
                 this.ActionAllEnemy();
@@ -9346,7 +9543,7 @@ if ( TRACE ) { TRACE( "GameManager6#UnActiveGuide", this ); }
             ActionAttack: function () {
 if ( TRACE ) { TRACE( "GameManager6#ActionAttack", this ); }
 
-                Luna.Unity.Analytics.LogEvent$1("Attack Phase1 ", 0);
+                //Luna.Unity.Analytics.LogEvent("Attack Phase1 ", 0);
                 this.guideAttack.SetActive(false);
                 this.ActionAllCharacter();
                 this.ActionAllEnemy();
@@ -9698,7 +9895,7 @@ if ( TRACE ) { TRACE( "MergeHuggy1#UnActiveGuide", this ); }
             ActionAttack: function () {
 if ( TRACE ) { TRACE( "MergeHuggy1#ActionAttack", this ); }
 
-                Luna.Unity.Analytics.LogEvent$1("Attack Phase1 ", 0);
+                //Luna.Unity.Analytics.LogEvent("Attack Phase1 ", 0);
                 this.guideAttack.SetActive(false);
                 this.ActionAllCharacter();
                 this.ActionAllEnemy();
@@ -9896,6 +10093,8 @@ if ( TRACE ) { TRACE( "MergeHuggyCraft1#inherits", this ); }
             map2: null,
             bridge1: null,
             bridge2: null,
+            canvasBackground1: null,
+            canvasBackground2: null,
             countEnd: 0,
             victory: null,
             lose: null,
@@ -9903,7 +10102,8 @@ if ( TRACE ) { TRACE( "MergeHuggyCraft1#inherits", this ); }
             guideHand: null,
             guideAttack: null,
             gameEndUI: null,
-            fightBtn: null
+            fightBtn: null,
+            guideDraw: null
         },
         ctors: {
             init: function () {
@@ -9986,6 +10186,7 @@ if ( TRACE ) { TRACE( "MergeHuggyCraft1#ActionAllEnemy", this ); }
             UnActiveGuide: function () {
 if ( TRACE ) { TRACE( "MergeHuggyCraft1#UnActiveGuide", this ); }
 
+                this.guideDraw.GetComponent(DrawLineTutorial).StopDrawing();
                 Singleton$1(GlobalInstance).Instance.gameManagerInstance.guide.SetActive(false);
                 Singleton$1(GlobalInstance).Instance.gameManagerInstance.guideHand.SetActive(false);
                 //GlobalInstance.Instance.gameManagerInstance.guideHand2.SetActive(false);
@@ -9996,11 +10197,11 @@ if ( TRACE ) { TRACE( "MergeHuggyCraft1#UnActiveGuide", this ); }
             ActionAttack: function () {
 if ( TRACE ) { TRACE( "MergeHuggyCraft1#ActionAttack", this ); }
 
-                Luna.Unity.Analytics.LogEvent$1("Attack Phase1 ", 0);
+                //Luna.Unity.Analytics.LogEvent("Attack Phase1 ", 0);
                 this.guideAttack.SetActive(false);
                 this.ActionAllCharacter();
                 this.ActionAllEnemy();
-                this.StartCoroutine$1(this.IEAfterAttackWin(3.0));
+                this.StartCoroutine$1(this.IEAfterAttackWin(6.0));
             },
             /*MergeHuggyCraft1.ActionAttack end.*/
 
@@ -10086,13 +10287,33 @@ if ( TRACE ) { TRACE( "MergeHuggyCraft1#IENextWave2", this ); }
                                         for (var i3 = 0; i3 < this.enemyParent2.transform.childCount; i3 = (i3 + 1) | 0) {
                                             this.lstEnemy.add(this.enemyParent2.transform.GetChild(i3).GetComponent(EnemyController));
                                         }
-                                        this.characterParent2.SetActive(true);
-                                        this.enemyParent2.SetActive(true);
-                                        this.map1.SetActive(false);
-                                        this.map2.SetActive(true);
-                                        DG.Tweening.ShortcutExtensions.DOScaleZ(this.bridge1.transform, 0.3, 1.2);
-                                        DG.Tweening.ShortcutExtensions.DOScaleZ(this.bridge2.transform, 0.3, 1.2);
-                                        this.gameEndUI.SetActive(true);
+                                        if (UnityEngine.GameObject.op_Inequality(this.characterParent2, null)) {
+                                            this.characterParent2.SetActive(true);
+                                        }
+                                        if (UnityEngine.GameObject.op_Inequality(this.enemyParent2, null)) {
+                                            this.enemyParent2.SetActive(true);
+                                        }
+                                        if (UnityEngine.GameObject.op_Inequality(this.map1, null)) {
+                                            this.map1.SetActive(false);
+                                        }
+                                        if (UnityEngine.GameObject.op_Inequality(this.map2, null)) {
+                                            this.map2.SetActive(true);
+                                        }
+                                        if (UnityEngine.GameObject.op_Inequality(this.bridge1, null)) {
+                                            DG.Tweening.ShortcutExtensions.DOScaleZ(this.bridge1.transform, 0.3, 1.2);
+                                        }
+                                        if (UnityEngine.GameObject.op_Inequality(this.bridge2, null)) {
+                                            DG.Tweening.ShortcutExtensions.DOScaleZ(this.bridge2.transform, 0.3, 1.2);
+                                        }
+                                        if (UnityEngine.GameObject.op_Inequality(this.canvasBackground1, null)) {
+                                            this.canvasBackground1.SetActive(false);
+                                        }
+                                        if (UnityEngine.GameObject.op_Inequality(this.canvasBackground2, null)) {
+                                            this.canvasBackground2.SetActive(true);
+                                        }
+                                        if (UnityEngine.GameObject.op_Inequality(this.gameEndUI, null)) {
+                                            this.gameEndUI.SetActive(true);
+                                        }
                                         this.isCanDraw = false;
                                         this.ToTheEndGame();
                                         //countEnd++;
@@ -10770,9 +10991,16 @@ if ( TRACE ) { TRACE( "SoundController#StopSound", this ); }
     });
     /*SoundController end.*/
 
-    if ( MODULE_reflection ) {
     var $m = Bridge.setMetadata,
         $n = ["System","UnityEngine","UnityEngine.UI","System.Collections.Generic","System.Collections","UnityEngine.EventSystems","UnityEngine.Audio","DG.Tweening.Core","DG.Tweening","DG.Tweening.Plugins.Core.PathCore","System.Globalization","DG.Tweening.Plugins.Options","EpicToonFX"];
+
+    /*ClickDeactive start.*/
+    $m("ClickDeactive", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":1,"n":"Start","t":8,"sn":"Start","rt":$n[0].Void},{"a":1,"n":"Update","t":8,"sn":"Update","rt":$n[0].Void}]}; }, $n);
+    /*ClickDeactive end.*/
+
+    /*PanCraft start.*/
+    $m("PanCraft", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":1,"n":"Start","t":8,"sn":"Start","rt":$n[0].Void},{"a":1,"n":"Update","t":8,"sn":"Update","rt":$n[0].Void}]}; }, $n);
+    /*PanCraft end.*/
 
     /*ArrayPosFight start.*/
     $m("ArrayPosFight", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"at":[new UnityEngine.HideInInspector()],"a":2,"n":"isHasPlayer","t":4,"rt":$n[0].Boolean,"sn":"isHasPlayer","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}}]}; }, $n);
@@ -10787,12 +11015,16 @@ if ( TRACE ) { TRACE( "SoundController#StopSound", this ); }
     /*CharacterController end.*/
 
     /*DrawLine start.*/
-    $m("DrawLine", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":1,"n":"GetMousePosition","t":8,"sn":"GetMousePosition","rt":$n[1].Vector3},{"a":2,"n":"SetLineColor","t":8,"pi":[{"n":"color","pt":$n[1].Color,"ps":0}],"sn":"SetLineColor","rt":$n[0].Void,"p":[$n[1].Color]},{"a":2,"n":"SetLineWidth","t":8,"pi":[{"n":"width","pt":$n[0].Single,"ps":0}],"sn":"SetLineWidth","rt":$n[0].Void,"p":[$n[0].Single]},{"a":1,"n":"Start","t":8,"sn":"Start","rt":$n[0].Void},{"a":1,"n":"Update","t":8,"sn":"Update","rt":$n[0].Void},{"at":[new UnityEngine.HideInInspector()],"a":2,"n":"currentLine","t":4,"rt":$n[1].LineRenderer,"sn":"currentLine"},{"at":[new UnityEngine.SpaceAttribute.$ctor1(30.0)],"a":2,"n":"lineColor","t":4,"rt":$n[1].Color,"sn":"lineColor"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"linePref","t":4,"rt":$n[1].GameObject,"sn":"linePref"},{"a":2,"n":"lineWidth","t":4,"rt":$n[0].Single,"sn":"lineWidth","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"at":[new UnityEngine.HideInInspector()],"a":2,"n":"lstLinePoints","t":4,"rt":$n[3].List$1(UnityEngine.Vector3),"sn":"lstLinePoints"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"timeDelay","t":4,"rt":$n[0].Single,"sn":"timeDelay","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"timer","t":4,"rt":$n[0].Single,"sn":"timer","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}}]}; }, $n);
+    $m("DrawLine", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":1,"n":"GetMousePosition","t":8,"sn":"GetMousePosition","rt":$n[1].Vector3},{"a":2,"n":"SetLineColor","t":8,"pi":[{"n":"color","pt":$n[1].Color,"ps":0}],"sn":"SetLineColor","rt":$n[0].Void,"p":[$n[1].Color]},{"a":2,"n":"SetLineWidth","t":8,"pi":[{"n":"width","pt":$n[0].Single,"ps":0}],"sn":"SetLineWidth","rt":$n[0].Void,"p":[$n[0].Single]},{"a":1,"n":"Start","t":8,"sn":"Start","rt":$n[0].Void},{"v":true,"a":3,"n":"Update","t":8,"sn":"Update","rt":$n[0].Void},{"at":[new UnityEngine.HideInInspector()],"a":2,"n":"currentLine","t":4,"rt":$n[1].LineRenderer,"sn":"currentLine"},{"at":[new UnityEngine.SpaceAttribute.$ctor1(30.0)],"a":2,"n":"lineColor","t":4,"rt":$n[1].Color,"sn":"lineColor"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":3,"n":"linePref","t":4,"rt":$n[1].GameObject,"sn":"linePref"},{"a":2,"n":"lineWidth","t":4,"rt":$n[0].Single,"sn":"lineWidth","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"at":[new UnityEngine.HideInInspector()],"a":2,"n":"lstLinePoints","t":4,"rt":$n[3].List$1(UnityEngine.Vector3),"sn":"lstLinePoints"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":3,"n":"timeDelay","t":4,"rt":$n[0].Single,"sn":"timeDelay","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":3,"n":"timer","t":4,"rt":$n[0].Single,"sn":"timer","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}}]}; }, $n);
     /*DrawLine end.*/
 
     /*DrawLineCanvas start.*/
     $m("DrawLineCanvas", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":1,"n":"EndDrawingLine","t":8,"sn":"EndDrawingLine","rt":$n[0].Void},{"a":1,"n":"GetMousePosition","t":8,"sn":"GetMousePosition","rt":$n[1].Vector3},{"a":1,"n":"PreviewLine","t":8,"sn":"PreviewLine","rt":$n[0].Void},{"a":1,"n":"StartDrawingLine","t":8,"sn":"StartDrawingLine","rt":$n[0].Void},{"a":1,"n":"Update","t":8,"sn":"Update","rt":$n[0].Void},{"a":1,"n":"currentLineObject","t":4,"rt":$n[1].GameObject,"sn":"currentLineObject"},{"a":1,"n":"currentLineRenderer","t":4,"rt":$n[1].LineRenderer,"sn":"currentLineRenderer"},{"a":2,"n":"lineMaterial","t":4,"rt":$n[1].Material,"sn":"lineMaterial"},{"a":2,"n":"lineThickness","t":4,"rt":$n[0].Single,"sn":"lineThickness","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"parentCanvas","t":4,"rt":$n[1].Canvas,"sn":"parentCanvas"},{"a":1,"n":"startPosition","t":4,"rt":$n[1].Vector3,"sn":"startPosition"}]}; }, $n);
     /*DrawLineCanvas end.*/
+
+    /*DrawLineTutorial start.*/
+    $m("DrawLineTutorial", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":1,"n":"GetCurrentPosition","t":8,"sn":"GetCurrentPosition","rt":$n[1].Vector3},{"a":1,"n":"StartDrawing","t":8,"sn":"StartDrawing","rt":$n[0].Void},{"a":2,"n":"StopDrawing","t":8,"sn":"StopDrawing","rt":$n[0].Void},{"ov":true,"a":3,"n":"Update","t":8,"sn":"Update","rt":$n[0].Void},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"drawManager","t":4,"rt":$n[1].GameObject,"sn":"drawManager"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"drawPoint","t":4,"rt":$n[1].RectTransform,"sn":"drawPoint"},{"a":1,"n":"isDrawing","t":4,"rt":$n[0].Boolean,"sn":"isDrawing","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}}]}; }, $n);
+    /*DrawLineTutorial end.*/
 
     /*Baby start.*/
     $m("Baby", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"SpawnerBullet","t":8,"sn":"SpawnerBullet","rt":$n[0].Void},{"a":2,"n":"pointShoot","t":4,"rt":$n[1].Transform,"sn":"pointShoot"},{"a":2,"n":"prefBullet","t":4,"rt":$n[1].GameObject,"sn":"prefBullet"}]}; }, $n);
@@ -10803,7 +11035,7 @@ if ( TRACE ) { TRACE( "SoundController#StopSound", this ); }
     /*Huggy09 end.*/
 
     /*EnemyController start.*/
-    $m("EnemyController", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"AnimationAttack","t":8,"pi":[{"n":"temp","pt":$n[0].Boolean,"ps":0}],"sn":"AnimationAttack","rt":$n[0].Void,"p":[$n[0].Boolean]},{"a":2,"n":"AnimationDie","t":8,"sn":"AnimationDie","rt":$n[0].Void},{"a":2,"n":"AnimationMove","t":8,"pi":[{"n":"temp","pt":$n[0].Boolean,"ps":0}],"sn":"AnimationMove","rt":$n[0].Void,"p":[$n[0].Boolean]},{"a":2,"n":"ApplyDamage","t":8,"sn":"ApplyDamage","rt":$n[0].Void},{"a":2,"n":"ChasingPlayer","t":8,"sn":"ChasingPlayer","rt":$n[0].Void},{"a":2,"n":"Dying","t":8,"sn":"Dying","rt":$n[0].Void},{"a":1,"n":"OnTriggerEnter","t":8,"pi":[{"n":"other","pt":$n[1].Collider,"ps":0}],"sn":"OnTriggerEnter","rt":$n[0].Void,"p":[$n[1].Collider]},{"a":2,"n":"RunToTarget","t":8,"sn":"RunToTarget","rt":$n[0].Void},{"a":1,"n":"Update","t":8,"sn":"Update","rt":$n[0].Void},{"a":1,"n":"_propBlock","t":4,"rt":$n[1].MaterialPropertyBlock,"sn":"_propBlock"},{"a":2,"n":"animator","t":4,"rt":$n[1].Animator,"sn":"animator"},{"a":1,"n":"color","t":4,"rt":$n[1].Color,"sn":"color"},{"a":1,"n":"currentHP","t":4,"rt":$n[0].Int32,"sn":"currentHP","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":1,"n":"flagAnim1","t":4,"rt":$n[0].Boolean,"sn":"flagAnim1","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"flagAnim2","t":4,"rt":$n[0].Boolean,"sn":"flagAnim2","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"hp","t":4,"rt":$n[0].Int32,"sn":"hp","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":3,"n":"isAlive","t":4,"rt":$n[0].Boolean,"sn":"isAlive","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"isTargetEnemy","t":4,"rt":$n[0].Boolean,"sn":"isTargetEnemy","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"maxDist","t":4,"rt":$n[0].Single,"sn":"maxDist","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"meshRenderer","t":4,"rt":$n[1].Renderer,"sn":"meshRenderer"},{"a":1,"n":"minDist","t":4,"rt":$n[0].Single,"sn":"minDist","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":3,"n":"playerTarget","t":4,"rt":$n[1].GameObject,"sn":"playerTarget"},{"a":2,"n":"shadow","t":4,"rt":$n[1].GameObject,"sn":"shadow"},{"a":1,"n":"speedMove","t":4,"rt":$n[0].Single,"sn":"speedMove","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"yDie","t":4,"rt":$n[0].Single,"sn":"yDie","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"zDie","t":4,"rt":$n[0].Single,"sn":"zDie","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}}]}; }, $n);
+    $m("EnemyController", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"AnimationAttack","t":8,"pi":[{"n":"temp","pt":$n[0].Boolean,"ps":0}],"sn":"AnimationAttack","rt":$n[0].Void,"p":[$n[0].Boolean]},{"a":2,"n":"AnimationDie","t":8,"sn":"AnimationDie","rt":$n[0].Void},{"a":2,"n":"AnimationMove","t":8,"pi":[{"n":"temp","pt":$n[0].Boolean,"ps":0}],"sn":"AnimationMove","rt":$n[0].Void,"p":[$n[0].Boolean]},{"a":2,"n":"ApplyDamage","t":8,"sn":"ApplyDamage","rt":$n[0].Void},{"a":2,"n":"ChasingPlayer","t":8,"sn":"ChasingPlayer","rt":$n[0].Void},{"a":2,"n":"Dying","t":8,"sn":"Dying","rt":$n[0].Void},{"a":1,"n":"OnTriggerEnter","t":8,"pi":[{"n":"other","pt":$n[1].Collider,"ps":0}],"sn":"OnTriggerEnter","rt":$n[0].Void,"p":[$n[1].Collider]},{"a":2,"n":"RunToTarget","t":8,"sn":"RunToTarget","rt":$n[0].Void},{"a":1,"n":"Update","t":8,"sn":"Update","rt":$n[0].Void},{"a":1,"n":"_propBlock","t":4,"rt":$n[1].MaterialPropertyBlock,"sn":"_propBlock"},{"a":2,"n":"animator","t":4,"rt":$n[1].Animator,"sn":"animator"},{"a":1,"n":"color","t":4,"rt":$n[1].Color,"sn":"color"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"currentHP","t":4,"rt":$n[0].Int32,"sn":"currentHP","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":1,"n":"flagAnim1","t":4,"rt":$n[0].Boolean,"sn":"flagAnim1","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"flagAnim2","t":4,"rt":$n[0].Boolean,"sn":"flagAnim2","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"hp","t":4,"rt":$n[0].Int32,"sn":"hp","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":3,"n":"isAlive","t":4,"rt":$n[0].Boolean,"sn":"isAlive","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"isTargetEnemy","t":4,"rt":$n[0].Boolean,"sn":"isTargetEnemy","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"maxDist","t":4,"rt":$n[0].Single,"sn":"maxDist","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"meshRenderer","t":4,"rt":$n[1].Renderer,"sn":"meshRenderer"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"minDist","t":4,"rt":$n[0].Single,"sn":"minDist","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":3,"n":"playerTarget","t":4,"rt":$n[1].GameObject,"sn":"playerTarget"},{"a":2,"n":"shadow","t":4,"rt":$n[1].GameObject,"sn":"shadow"},{"a":1,"n":"speedMove","t":4,"rt":$n[0].Single,"sn":"speedMove","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"yDie","t":4,"rt":$n[0].Single,"sn":"yDie","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"zDie","t":4,"rt":$n[0].Single,"sn":"zDie","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}}]}; }, $n);
     /*EnemyController end.*/
 
     /*LookAtCamera start.*/
@@ -10967,11 +11199,11 @@ if ( TRACE ) { TRACE( "SoundController#StopSound", this ); }
     /*KillyWillyCraft end.*/
 
     /*MainCharacter start.*/
-    $m("MainCharacter", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"ActiveChoose","t":8,"sn":"ActiveChoose","rt":$n[0].Void},{"a":2,"n":"AnimationAttack","t":8,"pi":[{"n":"temp","pt":$n[0].Boolean,"ps":0}],"sn":"AnimationAttack","rt":$n[0].Void,"p":[$n[0].Boolean]},{"a":2,"n":"AnimationDie","t":8,"sn":"AnimationDie","rt":$n[0].Void},{"a":2,"n":"AnimationMove","t":8,"pi":[{"n":"temp","pt":$n[0].Boolean,"ps":0}],"sn":"AnimationMove","rt":$n[0].Void,"p":[$n[0].Boolean]},{"v":true,"a":2,"n":"ApplyDamage","t":8,"sn":"ApplyDamage","rt":$n[0].Void},{"a":2,"n":"ChasingEnemy","t":8,"sn":"ChasingEnemy","rt":$n[0].Void},{"a":2,"n":"Dying","t":8,"sn":"Dying","rt":$n[0].Void},{"a":1,"n":"OnTriggerEnter","t":8,"pi":[{"n":"other","pt":$n[1].Collider,"ps":0}],"sn":"OnTriggerEnter","rt":$n[0].Void,"p":[$n[1].Collider]},{"a":1,"n":"RotateFacing","t":8,"pi":[{"n":"directionFacing","pt":$n[1].Vector3,"ps":0}],"sn":"RotateFacing","rt":$n[0].Void,"p":[$n[1].Vector3]},{"a":2,"n":"SpawnCharacter","t":8,"pi":[{"n":"index","pt":$n[0].Int32,"ps":0}],"sn":"SpawnCharacter","rt":$n[0].Void,"p":[$n[0].Int32]},{"a":1,"n":"SpawnerFXSmoke","t":8,"pi":[{"n":"parentt","pt":$n[1].GameObject,"ps":0}],"sn":"SpawnerFXSmoke","rt":$n[0].Void,"p":[$n[1].GameObject]},{"a":2,"n":"UnActiveChoose","t":8,"sn":"UnActiveChoose","rt":$n[0].Void},{"a":1,"n":"Update","t":8,"sn":"Update","rt":$n[0].Void},{"a":3,"n":"_propBlock","t":4,"rt":$n[1].MaterialPropertyBlock,"sn":"_propBlock"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"animator","t":4,"rt":$n[1].Animator,"sn":"animator"},{"a":2,"n":"charScale","t":4,"rt":$n[1].Vector3,"sn":"charScale"},{"a":2,"n":"characterUp","t":4,"rt":$n[1].GameObject,"sn":"characterUp"},{"a":2,"n":"circle","t":4,"rt":$n[1].GameObject,"sn":"circle"},{"a":1,"n":"enemyTarget","t":4,"rt":$n[1].GameObject,"sn":"enemyTarget"},{"a":1,"n":"flagAnim1","t":4,"rt":$n[0].Boolean,"sn":"flagAnim1","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"flagAnim2","t":4,"rt":$n[0].Boolean,"sn":"flagAnim2","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"fxSmoke","t":4,"rt":$n[1].GameObject,"sn":"fxSmoke"},{"a":2,"n":"index","t":4,"rt":$n[0].Int32,"sn":"index","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":3,"n":"isAlive","t":4,"rt":$n[0].Boolean,"sn":"isAlive","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"at":[new UnityEngine.HeaderAttribute("UI"),new UnityEngine.HideInInspector()],"a":2,"n":"isChoosed","t":4,"rt":$n[0].Boolean,"sn":"isChoosed","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"at":[new UnityEngine.HideInInspector()],"a":2,"n":"isTargetEnemy","t":4,"rt":$n[0].Boolean,"sn":"isTargetEnemy","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"maxDist","t":4,"rt":$n[0].Single,"sn":"maxDist","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"meshRenderer","t":4,"rt":$n[1].Renderer,"sn":"meshRenderer"},{"a":1,"n":"minDist","t":4,"rt":$n[0].Single,"sn":"minDist","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"speedMove","t":4,"rt":$n[0].Single,"sn":"speedMove","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}}]}; }, $n);
+    $m("MainCharacter", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"ActiveChoose","t":8,"sn":"ActiveChoose","rt":$n[0].Void},{"a":2,"n":"AnimationAttack","t":8,"pi":[{"n":"temp","pt":$n[0].Boolean,"ps":0}],"sn":"AnimationAttack","rt":$n[0].Void,"p":[$n[0].Boolean]},{"a":2,"n":"AnimationDie","t":8,"sn":"AnimationDie","rt":$n[0].Void},{"a":2,"n":"AnimationMove","t":8,"pi":[{"n":"temp","pt":$n[0].Boolean,"ps":0}],"sn":"AnimationMove","rt":$n[0].Void,"p":[$n[0].Boolean]},{"v":true,"a":2,"n":"ApplyDamage","t":8,"sn":"ApplyDamage","rt":$n[0].Void},{"a":2,"n":"ChasingEnemy","t":8,"sn":"ChasingEnemy","rt":$n[0].Void},{"a":2,"n":"Dying","t":8,"sn":"Dying","rt":$n[0].Void},{"a":1,"n":"OnTriggerEnter","t":8,"pi":[{"n":"other","pt":$n[1].Collider,"ps":0}],"sn":"OnTriggerEnter","rt":$n[0].Void,"p":[$n[1].Collider]},{"a":1,"n":"RotateFacing","t":8,"pi":[{"n":"directionFacing","pt":$n[1].Vector3,"ps":0}],"sn":"RotateFacing","rt":$n[0].Void,"p":[$n[1].Vector3]},{"a":2,"n":"SpawnCharacter","t":8,"pi":[{"n":"index","pt":$n[0].Int32,"ps":0}],"sn":"SpawnCharacter","rt":$n[0].Void,"p":[$n[0].Int32]},{"a":1,"n":"SpawnerFXSmoke","t":8,"pi":[{"n":"parentt","pt":$n[1].GameObject,"ps":0}],"sn":"SpawnerFXSmoke","rt":$n[0].Void,"p":[$n[1].GameObject]},{"a":2,"n":"UnActiveChoose","t":8,"sn":"UnActiveChoose","rt":$n[0].Void},{"a":1,"n":"Update","t":8,"sn":"Update","rt":$n[0].Void},{"a":3,"n":"_propBlock","t":4,"rt":$n[1].MaterialPropertyBlock,"sn":"_propBlock"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"animator","t":4,"rt":$n[1].Animator,"sn":"animator"},{"a":2,"n":"charScale","t":4,"rt":$n[1].Vector3,"sn":"charScale"},{"a":2,"n":"characterUp","t":4,"rt":$n[1].GameObject,"sn":"characterUp"},{"a":2,"n":"circle","t":4,"rt":$n[1].GameObject,"sn":"circle"},{"a":1,"n":"enemyTarget","t":4,"rt":$n[1].GameObject,"sn":"enemyTarget"},{"a":1,"n":"flagAnim1","t":4,"rt":$n[0].Boolean,"sn":"flagAnim1","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"flagAnim2","t":4,"rt":$n[0].Boolean,"sn":"flagAnim2","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"fxSmoke","t":4,"rt":$n[1].GameObject,"sn":"fxSmoke"},{"a":2,"n":"index","t":4,"rt":$n[0].Int32,"sn":"index","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":3,"n":"isAlive","t":4,"rt":$n[0].Boolean,"sn":"isAlive","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"at":[new UnityEngine.HeaderAttribute("UI"),new UnityEngine.HideInInspector()],"a":2,"n":"isChoosed","t":4,"rt":$n[0].Boolean,"sn":"isChoosed","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"at":[new UnityEngine.HideInInspector()],"a":2,"n":"isTargetEnemy","t":4,"rt":$n[0].Boolean,"sn":"isTargetEnemy","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"maxDist","t":4,"rt":$n[0].Single,"sn":"maxDist","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"meshRenderer","t":4,"rt":$n[1].Renderer,"sn":"meshRenderer"},{"a":2,"n":"meshRenderers","t":4,"rt":$n[3].List$1(UnityEngine.Renderer),"sn":"meshRenderers"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"minDist","t":4,"rt":$n[0].Single,"sn":"minDist","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"speedMove","t":4,"rt":$n[0].Single,"sn":"speedMove","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"spinRate","t":4,"rt":$n[0].Single,"sn":"spinRate","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}}]}; }, $n);
     /*MainCharacter end.*/
 
     /*MergeHuggyCraft1 start.*/
-    $m("MergeHuggyCraft1", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":1,"n":"ActionAllCharacter","t":8,"sn":"ActionAllCharacter","rt":$n[0].Void},{"a":1,"n":"ActionAllEnemy","t":8,"sn":"ActionAllEnemy","rt":$n[0].Void},{"a":2,"n":"ActionAttack","t":8,"sn":"ActionAttack","rt":$n[0].Void},{"a":1,"n":"IEAfterAttackWin","t":8,"pi":[{"n":"time","pt":$n[0].Single,"ps":0}],"sn":"IEAfterAttackWin","rt":$n[4].IEnumerator,"p":[$n[0].Single]},{"a":1,"n":"IENextWave2","t":8,"pi":[{"n":"time","pt":$n[0].Single,"ps":0}],"sn":"IENextWave2","rt":$n[4].IEnumerator,"p":[$n[0].Single]},{"a":2,"n":"InstallFullGame","t":8,"sn":"InstallFullGame","rt":$n[0].Void},{"a":1,"n":"MuteGameFunction","t":8,"sn":"MuteGameFunction","rt":$n[0].Void},{"a":1,"n":"OnEnable","t":8,"sn":"OnEnable","rt":$n[0].Void},{"a":1,"n":"Start","t":8,"sn":"Start","rt":$n[0].Void},{"a":2,"n":"ToTheEndGame","t":8,"sn":"ToTheEndGame","rt":$n[0].Void},{"a":2,"n":"UnActiveGuide","t":8,"sn":"UnActiveGuide","rt":$n[0].Void},{"a":1,"n":"UnMuteGameFunction","t":8,"sn":"UnMuteGameFunction","rt":$n[0].Void},{"a":2,"n":"bridge1","t":4,"rt":$n[1].GameObject,"sn":"bridge1"},{"a":2,"n":"bridge2","t":4,"rt":$n[1].GameObject,"sn":"bridge2"},{"a":2,"n":"cameraMain","t":4,"rt":$n[1].Camera,"sn":"cameraMain"},{"a":2,"n":"characterParent","t":4,"rt":$n[1].GameObject,"sn":"characterParent"},{"a":2,"n":"characterParent2","t":4,"rt":$n[1].GameObject,"sn":"characterParent2"},{"at":[new UnityEngine.HideInInspector()],"a":2,"n":"countEnd","t":4,"rt":$n[0].Int32,"sn":"countEnd","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"drawLine","t":4,"rt":DrawLine,"sn":"drawLine"},{"at":[new UnityEngine.HideInInspector()],"a":2,"n":"enemyMerge","t":4,"rt":$n[1].GameObject,"sn":"enemyMerge"},{"a":2,"n":"enemyParent","t":4,"rt":$n[1].GameObject,"sn":"enemyParent"},{"a":2,"n":"enemyParent2","t":4,"rt":$n[1].GameObject,"sn":"enemyParent2"},{"a":2,"n":"fightBtn","t":4,"rt":$n[2].Button,"sn":"fightBtn"},{"a":2,"n":"gameEndUI","t":4,"rt":$n[1].GameObject,"sn":"gameEndUI"},{"a":2,"n":"guide","t":4,"rt":$n[1].GameObject,"sn":"guide"},{"a":2,"n":"guideAttack","t":4,"rt":$n[1].GameObject,"sn":"guideAttack"},{"a":2,"n":"guideHand","t":4,"rt":$n[1].GameObject,"sn":"guideHand"},{"at":[new UnityEngine.HideInInspector()],"a":2,"n":"isCanDraw","t":4,"rt":$n[0].Boolean,"sn":"isCanDraw","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"at":[new UnityEngine.HideInInspector()],"a":2,"n":"isEndGame","t":4,"rt":$n[0].Boolean,"sn":"isEndGame","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"at":[new UnityEngine.HideInInspector()],"a":2,"n":"isMergeWin","t":4,"rt":$n[0].Boolean,"sn":"isMergeWin","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"lose","t":4,"rt":$n[2].Image,"sn":"lose"},{"at":[new UnityEngine.HideInInspector()],"a":2,"n":"lstCharacter","t":4,"rt":$n[3].List$1(MainCharacter),"sn":"lstCharacter"},{"at":[new UnityEngine.HideInInspector()],"a":2,"n":"lstEnemy","t":4,"rt":$n[3].List$1(EnemyController),"sn":"lstEnemy"},{"a":2,"n":"map1","t":4,"rt":$n[1].GameObject,"sn":"map1"},{"a":2,"n":"map2","t":4,"rt":$n[1].GameObject,"sn":"map2"},{"a":2,"n":"soundController","t":4,"rt":SoundController,"sn":"soundController"},{"at":[new UnityEngine.HideInInspector()],"a":2,"n":"totalPlayer","t":4,"rt":$n[0].Int32,"sn":"totalPlayer","box":function ($v) { return Bridge.box($v, System.Int32);}},{"at":[new UnityEngine.HeaderAttribute("UIConfig")],"a":2,"n":"victory","t":4,"rt":$n[2].Image,"sn":"victory"}]}; }, $n);
+    $m("MergeHuggyCraft1", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":1,"n":"ActionAllCharacter","t":8,"sn":"ActionAllCharacter","rt":$n[0].Void},{"a":1,"n":"ActionAllEnemy","t":8,"sn":"ActionAllEnemy","rt":$n[0].Void},{"a":2,"n":"ActionAttack","t":8,"sn":"ActionAttack","rt":$n[0].Void},{"a":1,"n":"IEAfterAttackWin","t":8,"pi":[{"n":"time","pt":$n[0].Single,"ps":0}],"sn":"IEAfterAttackWin","rt":$n[4].IEnumerator,"p":[$n[0].Single]},{"a":1,"n":"IENextWave2","t":8,"pi":[{"n":"time","pt":$n[0].Single,"ps":0}],"sn":"IENextWave2","rt":$n[4].IEnumerator,"p":[$n[0].Single]},{"a":2,"n":"InstallFullGame","t":8,"sn":"InstallFullGame","rt":$n[0].Void},{"a":1,"n":"MuteGameFunction","t":8,"sn":"MuteGameFunction","rt":$n[0].Void},{"a":1,"n":"OnEnable","t":8,"sn":"OnEnable","rt":$n[0].Void},{"a":1,"n":"Start","t":8,"sn":"Start","rt":$n[0].Void},{"a":2,"n":"ToTheEndGame","t":8,"sn":"ToTheEndGame","rt":$n[0].Void},{"a":2,"n":"UnActiveGuide","t":8,"sn":"UnActiveGuide","rt":$n[0].Void},{"a":1,"n":"UnMuteGameFunction","t":8,"sn":"UnMuteGameFunction","rt":$n[0].Void},{"a":2,"n":"bridge1","t":4,"rt":$n[1].GameObject,"sn":"bridge1"},{"a":2,"n":"bridge2","t":4,"rt":$n[1].GameObject,"sn":"bridge2"},{"a":2,"n":"cameraMain","t":4,"rt":$n[1].Camera,"sn":"cameraMain"},{"a":2,"n":"canvasBackground1","t":4,"rt":$n[1].GameObject,"sn":"canvasBackground1"},{"a":2,"n":"canvasBackground2","t":4,"rt":$n[1].GameObject,"sn":"canvasBackground2"},{"a":2,"n":"characterParent","t":4,"rt":$n[1].GameObject,"sn":"characterParent"},{"a":2,"n":"characterParent2","t":4,"rt":$n[1].GameObject,"sn":"characterParent2"},{"at":[new UnityEngine.HideInInspector()],"a":2,"n":"countEnd","t":4,"rt":$n[0].Int32,"sn":"countEnd","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"drawLine","t":4,"rt":DrawLine,"sn":"drawLine"},{"at":[new UnityEngine.HideInInspector()],"a":2,"n":"enemyMerge","t":4,"rt":$n[1].GameObject,"sn":"enemyMerge"},{"a":2,"n":"enemyParent","t":4,"rt":$n[1].GameObject,"sn":"enemyParent"},{"a":2,"n":"enemyParent2","t":4,"rt":$n[1].GameObject,"sn":"enemyParent2"},{"a":2,"n":"fightBtn","t":4,"rt":$n[2].Button,"sn":"fightBtn"},{"a":2,"n":"gameEndUI","t":4,"rt":$n[1].GameObject,"sn":"gameEndUI"},{"a":2,"n":"guide","t":4,"rt":$n[1].GameObject,"sn":"guide"},{"a":2,"n":"guideAttack","t":4,"rt":$n[1].GameObject,"sn":"guideAttack"},{"a":2,"n":"guideDraw","t":4,"rt":$n[1].GameObject,"sn":"guideDraw"},{"a":2,"n":"guideHand","t":4,"rt":$n[1].GameObject,"sn":"guideHand"},{"at":[new UnityEngine.HideInInspector()],"a":2,"n":"isCanDraw","t":4,"rt":$n[0].Boolean,"sn":"isCanDraw","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"at":[new UnityEngine.HideInInspector()],"a":2,"n":"isEndGame","t":4,"rt":$n[0].Boolean,"sn":"isEndGame","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"at":[new UnityEngine.HideInInspector()],"a":2,"n":"isMergeWin","t":4,"rt":$n[0].Boolean,"sn":"isMergeWin","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"lose","t":4,"rt":$n[2].Image,"sn":"lose"},{"at":[new UnityEngine.HideInInspector()],"a":2,"n":"lstCharacter","t":4,"rt":$n[3].List$1(MainCharacter),"sn":"lstCharacter"},{"at":[new UnityEngine.HideInInspector()],"a":2,"n":"lstEnemy","t":4,"rt":$n[3].List$1(EnemyController),"sn":"lstEnemy"},{"a":2,"n":"map1","t":4,"rt":$n[1].GameObject,"sn":"map1"},{"a":2,"n":"map2","t":4,"rt":$n[1].GameObject,"sn":"map2"},{"a":2,"n":"soundController","t":4,"rt":SoundController,"sn":"soundController"},{"at":[new UnityEngine.HideInInspector()],"a":2,"n":"totalPlayer","t":4,"rt":$n[0].Int32,"sn":"totalPlayer","box":function ($v) { return Bridge.box($v, System.Int32);}},{"at":[new UnityEngine.HeaderAttribute("UIConfig")],"a":2,"n":"victory","t":4,"rt":$n[2].Image,"sn":"victory"}]}; }, $n);
     /*MergeHuggyCraft1 end.*/
 
     /*StyledMonoBehaviour start.*/
@@ -11168,4 +11400,4 @@ if ( TRACE ) { TRACE( "SoundController#StopSound", this ); }
     } )],"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"at":[new UnityEngine.SpaceAttribute.ctor()],"a":2,"n":"data","t":4,"rt":$n[0].String,"sn":"data"}]}; }, $n);
     /*Boxophobic.Utils.SettingsData end.*/
 
-    }});
+});

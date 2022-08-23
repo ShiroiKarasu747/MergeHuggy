@@ -49,7 +49,7 @@ public class Singleton<T> : SingletonMono<T> where T : Component
             instance = (T)FindObjectOfType(typeof(T));
             if (instance == null)
             {
-                Debug.LogWarningFormat("[Singleton] Class {0} not found! Create empty instance", typeof(T));
+                //Debug.LogWarningFormat("[Singleton] Class {0} not found! Create empty instance", typeof(T));
                 instance = new GameObject(typeof(T).Name).AddComponent<T>();
             }
             return instance;

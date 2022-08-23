@@ -27,6 +27,7 @@ public class ShootingRaycast : MonoBehaviour
                     if (Physics.Raycast(ray, out hit, Mathf.Infinity, 1 << 9))
                     {
                         Transform select = hit.transform;
+                        //if (select.gameObject.name == "4.pan") Debug.Log("Hit pan");
                         if (select.transform.CompareTag(NameTag.Player))
                         {
                             MainCharacter charController = select.GetComponent<MainCharacter>();

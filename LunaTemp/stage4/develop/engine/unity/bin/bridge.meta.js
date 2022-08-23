@@ -1,11 +1,10 @@
 /**
- * @version   : 17.9.14-luna - Bridge.NET
+ * @version   : 17.9.19-luna - Bridge.NET
  * @author    : Object.NET, Inc. http://bridge.net/
  * @copyright : Copyright 2008-2022 Object.NET, Inc. http://object.net/
  * @license   : See license.txt and https://github.com/bridgedotnet/Bridge/blob/master/LICENSE.md
  */
 
-    if ( MODULE_reflection ) {
     var $m = Bridge.setMetadata,
         $n = ["System","System.Globalization","System.Threading","System.Runtime.Serialization","System.Collections.Generic","System.Collections.ObjectModel","System.Collections","System.Text","System.Net.WebSockets","System.Threading.Tasks","System.Text.RegularExpressions","System.Reflection","System.Runtime.CompilerServices","System.IO","System.ComponentModel","Bridge"];
 
@@ -1269,4 +1268,3 @@
     $m("Bridge.Utils.SystemAssemblyVersion", function () { return {"att":1048576,"a":4,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"Version","is":true,"t":8,"sn":"Version","rt":$n[0].Void}]}; }, $n);
     /*Bridge.Utils.SystemAssemblyVersion end.*/
 
-    }

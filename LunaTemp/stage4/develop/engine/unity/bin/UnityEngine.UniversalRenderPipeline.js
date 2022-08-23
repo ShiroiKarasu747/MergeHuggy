@@ -1,6 +1,6 @@
 if ( TRACE ) { TRACE( JSON.parse( '["UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset#init","UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset#init"]' ) ); }
 /**
- * @compiler Bridge.NET 17.9.12-luna
+ * @compiler Bridge.NET 17.9.19-luna
  */
 Bridge.assembly("UnityEngine.UniversalRenderPipeline", function ($asm, globals) {
     "use strict";

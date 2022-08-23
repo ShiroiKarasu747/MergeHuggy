@@ -80,7 +80,7 @@ public class MergeHuggy1 : Singleton<MergeHuggy1>
     }
     public void ActionAttack()
     {
-        Luna.Unity.Analytics.LogEvent("Attack Phase1 ", 0);
+        //Luna.Unity.Analytics.LogEvent("Attack Phase1 ", 0);
         guideAttack.SetActive(false);
         ActionAllCharacter();
         ActionAllEnemy();

@@ -24,6 +24,8 @@ public class MergeHuggyCraft1 : Singleton<MergeHuggyCraft1>
     public GameObject map2;
     public GameObject bridge1;
     public GameObject bridge2;
+    public GameObject canvasBackground1;
+    public GameObject canvasBackground2;
 
     [HideInInspector] public int countEnd;
     [Header("UIConfig")]
@@ -34,6 +36,8 @@ public class MergeHuggyCraft1 : Singleton<MergeHuggyCraft1>
     public GameObject guideAttack;
     public GameObject gameEndUI;
     public Button fightBtn;
+
+    public GameObject guideDraw;
     private void OnEnable()
     {
         //EventDispatcher.Instance.RegisterListener(EventID.CheckMerge, (param) => { SetMergeLose(); });
@@ -88,17 +92,18 @@ public class MergeHuggyCraft1 : Singleton<MergeHuggyCraft1>
     //}
     public void UnActiveGuide()
     {
+        guideDraw.GetComponent<DrawLineTutorial>().StopDrawing();
         GlobalInstance.Instance.gameManagerInstance.guide.SetActive(false);
         GlobalInstance.Instance.gameManagerInstance.guideHand.SetActive(false);
         //GlobalInstance.Instance.gameManagerInstance.guideHand2.SetActive(false);
     }
     public void ActionAttack()
     {
-        Luna.Unity.Analytics.LogEvent("Attack Phase1 ", 0);
+        //Luna.Unity.Analytics.LogEvent("Attack Phase1 ", 0);
         guideAttack.SetActive(false);
         ActionAllCharacter();
         ActionAllEnemy();
-        StartCoroutine(IEAfterAttackWin(3f));
+        StartCoroutine(IEAfterAttackWin(6f));
     }
     IEnumerator IEAfterAttackWin(float time)
     {
@@ -144,13 +149,15 @@ public class MergeHuggyCraft1 : Singleton<MergeHuggyCraft1>
         {
             lstEnemy.Add(enemyParent2.transform.GetChild(i).GetComponent<EnemyController>());
         }
-        characterParent2.SetActive(true);
-        enemyParent2.SetActive(true);
-        map1.SetActive(false);
-        map2.SetActive(true);
-        bridge1.transform.DOScaleZ(0.3f, 1.2f);
-        bridge2.transform.DOScaleZ(0.3f, 1.2f);
-        gameEndUI.SetActive(true);
+        if (characterParent2 != null) characterParent2.SetActive(true);
+        if (enemyParent2 != null) enemyParent2.SetActive(true);
+        if (map1 != null) map1.SetActive(false);
+        if (map2 != null) map2.SetActive(true);
+        if (bridge1 != null) bridge1.transform.DOScaleZ(0.3f, 1.2f);
+        if (bridge2 != null) bridge2.transform.DOScaleZ(0.3f, 1.2f);
+        if (canvasBackground1 != null) canvasBackground1.SetActive(false);
+        if (canvasBackground2 != null) canvasBackground2.SetActive(true);
+        if (gameEndUI != null) gameEndUI.SetActive(true);
         isCanDraw = false;
         ToTheEndGame();
         //countEnd++;
@@ -162,6 +169,7 @@ public class MergeHuggyCraft1 : Singleton<MergeHuggyCraft1>
     //    guideAttack.SetActive(true);
     //    ToTheEndGame();
     //}
+
     public void ToTheEndGame()
     {
         GlobalInstance.Instance.gameManagerInstance.isEndGame = true;

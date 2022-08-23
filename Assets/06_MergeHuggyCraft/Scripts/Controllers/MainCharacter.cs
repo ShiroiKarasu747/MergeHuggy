@@ -26,13 +26,16 @@ public class MainCharacter : MonoBehaviour
     //Renderer
     protected MaterialPropertyBlock _propBlock;
     public Renderer meshRenderer;
+    public List<Renderer> meshRenderers;
 
     //Chasing Variable
     private GameObject enemyTarget;
     [HideInInspector] public bool isTargetEnemy;
     private float speedMove = 0.9f;
-    private float maxDist = 1;
-    private float minDist = 1;
+    [SerializeField] private float maxDist = 1;
+    [SerializeField] private float minDist = 1;
+
+    [SerializeField] private float spinRate = 0;
     public void ActiveChoose()
     {
         //border.gameObject.SetActive(true);
@@ -78,8 +81,13 @@ public class MainCharacter : MonoBehaviour
     }
     private void Update()
     {
+        if (!isTargetEnemy && isAlive)
+        {
+            transform.Rotate(0, spinRate * Time.deltaTime, 0);
+        }
         if (isTargetEnemy && isAlive)
         {
+            
             transform.LookAt(enemyTarget.transform);
             if (Vector3.Distance(transform.position, enemyTarget.transform.position) >= minDist) //Mindist
             {
@@ -134,14 +142,35 @@ public class MainCharacter : MonoBehaviour
     public virtual void ApplyDamage()
     {
         _propBlock = new MaterialPropertyBlock();
-        meshRenderer.GetPropertyBlock(_propBlock);
+        if (meshRenderers.Count == 0) meshRenderer.GetPropertyBlock(_propBlock);
+        else
+        {
+            foreach (Renderer mesh in meshRenderers) mesh.GetPropertyBlock(_propBlock);
+        }
         _propBlock.SetColor("_Color", Color.red);
         //ChangeColor();
-        meshRenderer.SetPropertyBlock(_propBlock);
+        if (meshRenderers.Count == 0) meshRenderer.SetPropertyBlock(_propBlock);
+        else
+        {
+            foreach (Renderer mesh in meshRenderers) mesh.SetPropertyBlock(_propBlock);
+        }
+        
         StartCoroutine(HelperUtility.StartAction(() =>
         {
-            _propBlock.SetColor("_Color", new Color32(217, 217, 217, 255));
-            meshRenderer.SetPropertyBlock(_propBlock);
+            if (meshRenderers.Count == 0)
+            {
+                _propBlock.SetColor("_Color", new Color32(217, 217, 217, 255));
+                meshRenderer.SetPropertyBlock(_propBlock);
+            }
+            else
+            {
+                foreach (Renderer mesh in meshRenderers)
+                {
+                    _propBlock.SetColor("_Color", new Color32(217, 217, 217, 255));
+                    mesh.SetPropertyBlock(_propBlock);
+                }
+            }
+            
         }, 0.3f));
     }
     private void OnTriggerEnter(Collider other)

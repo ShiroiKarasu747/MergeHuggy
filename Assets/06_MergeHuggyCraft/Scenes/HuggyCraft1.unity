@@ -10150,6 +10150,8 @@ MonoBehaviour:
   zDie: 0
   meshRenderer: {fileID: 2086073075}
   shadow: {fileID: 1238079289}
+  hp: 0
+  currentHP: 0
   prefBullet: {fileID: 9108198970433441664, guid: 443c048399c909246a4035fc1ee7d54a,
     type: 3}
 --- !u!95 &588726125
@@ -41072,6 +41074,8 @@ MonoBehaviour:
   zDie: 0
   meshRenderer: {fileID: 9000169554245549667}
   shadow: {fileID: 1800613907}
+  hp: 0
+  currentHP: 0
   prefBullet: {fileID: 9108198970433441664, guid: 443c048399c909246a4035fc1ee7d54a,
     type: 3}
 --- !u!4 &4051622560903399663
@@ -47587,6 +47591,8 @@ MonoBehaviour:
   zDie: 0
   meshRenderer: {fileID: 6843676763605693720}
   shadow: {fileID: 798238868}
+  hp: 0
+  currentHP: 0
   prefBullet: {fileID: 9097490257341872576, guid: 51959f2c63fb49449aa12a44a252cea0,
     type: 3}
 --- !u!1 &8610769248917541145

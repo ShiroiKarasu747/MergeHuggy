@@ -1,7 +1,7 @@
 {
-    "version": "3.10.0",
+    "version": "3.11.0",
     "projectId": "999bd02e-f2d7-494e-9a5b-3efe9b302b92",
-    "applicationID": 12680,
+    "applicationID": 13000,
     "creativeName": "MergeMonsterCraft-HieuNX-PLY2",
     "pgServer": "EU",
     "unity": {
@@ -14,13 +14,15 @@
             ],
             "useMSBuild": true,
             "msbuildMac64": "/Library/Frameworks/Mono.framework/Versions/Current/bin/msbuild",
-            "msbuildWin64": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\MSBuild\\Current\\Bin\\MSBuild.exe",
+            "msbuildWin64": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\MSBuild.exe",
             "externalSources": [],
             "externalJSLibraries": [],
             "scriptingDefines": []
         },
         "assets": {
-            "export": [],
+            "export": [
+                "resources"
+            ],
             "excludes": [
                 "**/Editor/"
             ],
@@ -29,16 +31,18 @@
             ]
         },
         "scenes": [
+            "Assets/_Game/Scenes/New Scene.unity"
+        ],
+        "disabledScenes": [
             "Assets/06_MergeHuggyCraft/Scenes/HuggyCraft1.unity"
         ],
-        "disabledScenes": [],
         "startupScene": 0,
         "alphabeticalScenesOrder": false,
         "packages": {
             "default": {
                 "applicationName": "Merge Monster Craft",
                 "iosLink": "",
-                "androidLink": "https://play.google.com/store/apps/details?id=com.uc.merge.monster.craft",
+                "androidLink": "https://play.google.com/store/apps/details?id=com.unicorn.merge.weapon",
                 "orientation": "unspecified",
                 "languages": [
                     "en"
@@ -63,7 +67,7 @@
         },
         "preloader": {
             "active": true,
-            "icon": "Assets/Preloads/MergeMonsterCraft2.png",
+            "icon": "Assets/Preloader/Icon 4.png",
             "backgroundHexColor": "#914AFA"
         },
         "autoInstantiatePrefabs": true,
@@ -1617,15 +1621,7 @@
                 "excluded": true
             },
             {
-                "name": "UnityEngine.Resolution",
-                "excluded": true
-            },
-            {
                 "name": "UnityEngine.SceneManagement.SceneUtility",
-                "excluded": true
-            },
-            {
-                "name": "UnityEngine.Screen",
                 "excluded": true
             },
             {
@@ -1909,15 +1905,7 @@
                 "excluded": true
             },
             {
-                "name": "UnityEngine.SpaceAttribute",
-                "excluded": true
-            },
-            {
                 "name": "UnityEngine.TextAreaAttribute",
-                "excluded": true
-            },
-            {
-                "name": "UnityEngine.TextAsset",
                 "excluded": true
             },
             {
@@ -3486,7 +3474,7 @@
             },
             {
                 "name": "UnityEngine.Space",
-                "excluded": true
+                "excluded": false
             },
             {
                 "name": "UnityEngine.SpriteDrawMode",
@@ -5441,163 +5429,35 @@
                 "excluded": false
             },
             {
-                "name": "UnityEngine.U2D.SpriteAtlas",
+                "name": "Luna.Unity.DTO.UnityEngine.Assets.Shader.ShaderVariant",
                 "excluded": true
             },
             {
-                "name": "Luna.Unity.DTO.UnityEngine.Assets.Shader.UsePass",
+                "name": "Luna.Unity.DTO.UnityEngine.Assets.Shader.ProgramState",
                 "excluded": true
             },
             {
-                "name": "Luna.Unity.DTO.UnityEngine.Assets.SpriteAtlas",
+                "name": "System.IO.FileAccess",
                 "excluded": true
             },
             {
-                "name": "System.Collections.Generic.Dictionary$2.ValueCollection.Enumerator",
+                "name": "ClickDeactive",
+                "excluded": true
+            },
+            {
+                "name": "PanCraft",
+                "excluded": true
+            },
+            {
+                "name": "Luna.Unity.DTO.UnityEngine.Assets.Shader.Pass",
                 "excluded": false
             },
             {
-                "name": "System.Collections.Generic.List$1",
+                "name": "Luna.Unity.DTO.UnityEngine.Assets.Shader.Pass.Blending",
                 "excluded": false
             },
             {
-                "name": "System.Text.RegularExpressions.Match",
-                "excluded": false
-            },
-            {
-                "name": "System.Collections.HashHelpers",
-                "excluded": false
-            },
-            {
-                "name": "Luna.Unity.FacebookInstantGames.Arena",
-                "excluded": false
-            },
-            {
-                "name": "Luna.Unity.FacebookInstantGames.Arenas",
-                "excluded": false
-            },
-            {
-                "name": "Luna.Unity.FacebookInstantGames.CameraEffects",
-                "excluded": false
-            },
-            {
-                "name": "Luna.Unity.FacebookInstantGames.Community",
-                "excluded": false
-            },
-            {
-                "name": "Luna.Unity.FacebookInstantGames.GamingSquad",
-                "excluded": false
-            },
-            {
-                "name": "Luna.Unity.FacebookInstantGames.GraphApi",
-                "excluded": false
-            },
-            {
-                "name": "Luna.Unity.FacebookInstantGames.LiveMatch",
-                "excluded": false
-            },
-            {
-                "name": "Luna.Unity.FacebookInstantGames.LiveMatchPlayer",
-                "excluded": false
-            },
-            {
-                "name": "Luna.Unity.FacebookInstantGames.LiveStream",
-                "excluded": false
-            },
-            {
-                "name": "Luna.Unity.FacebookInstantGames.Room",
-                "excluded": false
-            },
-            {
-                "name": "Luna.Unity.FacebookInstantGames.Squads",
-                "excluded": false
-            },
-            {
-                "name": "Luna.Unity.FacebookInstantGames.Tournament",
-                "excluded": false
-            },
-            {
-                "name": "Luna.Unity.FacebookInstantGames.Tournaments",
-                "excluded": false
-            },
-            {
-                "name": "Luna.Unity.FacebookInstantGames.VideoPlayer",
-                "excluded": false
-            },
-            {
-                "name": "Luna.Unity.FacebookInstantGames.VideoPlayerInstance",
-                "excluded": false
-            },
-            {
-                "name": "LunaUnity.Objects.Registry",
-                "excluded": false
-            },
-            {
-                "name": "UnityEngine.Application",
-                "excluded": false
-            },
-            {
-                "name": "UnityEngine.Object$1",
-                "excluded": false
-            },
-            {
-                "name": "UnityEngine.PlayerPrefs.FacebookStorageProvider",
-                "excluded": false
-            },
-            {
-                "name": "UnityEngine.GameObject",
-                "excluded": false
-            },
-            {
-                "name": "Luna.Unity.FacebookInstantGames.AddToGamingSquadPayload",
-                "excluded": false
-            },
-            {
-                "name": "Luna.Unity.FacebookInstantGames.CameraEffectArgs",
-                "excluded": false
-            },
-            {
-                "name": "Luna.Unity.FacebookInstantGames.CreateGamingSquadPayload",
-                "excluded": false
-            },
-            {
-                "name": "Luna.Unity.FacebookInstantGames.CreateTournamentConfig",
-                "excluded": false
-            },
-            {
-                "name": "Luna.Unity.FacebookInstantGames.CreateTournamentPayload",
-                "excluded": false
-            },
-            {
-                "name": "Luna.Unity.FacebookInstantGames.InvitePayload",
-                "excluded": false
-            },
-            {
-                "name": "Luna.Unity.FacebookInstantGames.JoinGamingSquadPayload",
-                "excluded": false
-            },
-            {
-                "name": "Luna.Unity.FacebookInstantGames.LeaveGamingSquadPayload",
-                "excluded": false
-            },
-            {
-                "name": "Luna.Unity.FacebookInstantGames.LiveMatchStatusType",
-                "excluded": false
-            },
-            {
-                "name": "Luna.Unity.FacebookInstantGames.ShareTournamentPayload",
-                "excluded": false
-            },
-            {
-                "name": "Luna.Unity.FacebookInstantGames.VideoPlayerInstanceState",
-                "excluded": false
-            },
-            {
-                "name": "Luna.Unity.FacebookInstantGames.VideoPlayerPlacement",
-                "excluded": false
-            },
-            {
-                "name": "UnityEngine.UI.Selectable",
+                "name": "Luna.Unity.DTO.UnityEngine.Assets.Shader.Pass.StencilOp",
                 "excluded": false
             }
         ],
@@ -6081,50 +5941,6 @@
                     {
                         "name": "umul",
                         "excluded": true
-                    },
-                    {
-                        "name": "parseWithProvider",
-                        "excluded": true
-                    },
-                    {
-                        "name": "tryParseWithProvider",
-                        "excluded": true
-                    },
-                    {
-                        "name": "parseAsInMono_3_8",
-                        "excluded": true
-                    },
-                    {
-                        "name": "checkStyle",
-                        "excluded": true
-                    },
-                    {
-                        "name": "jumpOverWhite",
-                        "excluded": true
-                    },
-                    {
-                        "name": "findSign",
-                        "excluded": true
-                    },
-                    {
-                        "name": "findCurrency",
-                        "excluded": true
-                    },
-                    {
-                        "name": "findExponent",
-                        "excluded": true
-                    },
-                    {
-                        "name": "findOther",
-                        "excluded": true
-                    },
-                    {
-                        "name": "validDigit",
-                        "excluded": true
-                    },
-                    {
-                        "name": "getFormatException",
-                        "excluded": true
                     }
                 ]
             },
@@ -6162,10 +5978,6 @@
                     },
                     {
                         "name": "getHashCode",
-                        "excluded": true
-                    },
-                    {
-                        "name": "tryParse4",
                         "excluded": true
                     }
                 ]
@@ -11613,6 +11425,10 @@
                     {
                         "name": "ctor",
                         "excluded": false
+                    },
+                    {
+                        "name": "UpdatableRegistry#get",
+                        "excluded": true
                     }
                 ]
             },
@@ -11934,10 +11750,6 @@
                     },
                     {
                         "name": "ExecuteCommandBuffer",
-                        "excluded": true
-                    },
-                    {
-                        "name": "CopyTexture",
                         "excluded": true
                     }
                 ]
@@ -12528,6 +12340,10 @@
                     },
                     {
                         "name": "NormalizeResourcePath",
+                        "excluded": false
+                    },
+                    {
+                        "name": "Configure",
                         "excluded": false
                     }
                 ]
@@ -13515,26 +13331,6 @@
                     {
                         "name": "ctor",
                         "excluded": false
-                    },
-                    {
-                        "name": "GetWrapMode",
-                        "excluded": true
-                    },
-                    {
-                        "name": "wrapModeU#get",
-                        "excluded": true
-                    },
-                    {
-                        "name": "wrapModeU#set",
-                        "excluded": true
-                    },
-                    {
-                        "name": "wrapModeV#get",
-                        "excluded": true
-                    },
-                    {
-                        "name": "wrapModeV#set",
-                        "excluded": true
                     }
                 ]
             },
@@ -13768,7 +13564,7 @@
                     },
                     {
                         "name": "Rotate",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "Rotate$1",
@@ -13776,7 +13572,7 @@
                     },
                     {
                         "name": "Rotate$2",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "RotateAround",
@@ -14575,18 +14371,6 @@
                     {
                         "name": "HasPropertyBlock",
                         "excluded": true
-                    },
-                    {
-                        "name": "forceRenderingOff#get",
-                        "excluded": true
-                    },
-                    {
-                        "name": "forceRenderingOff#set",
-                        "excluded": true
-                    },
-                    {
-                        "name": "GetSharedMaterials",
-                        "excluded": true
                     }
                 ]
             },
@@ -14810,10 +14594,6 @@
                     },
                     {
                         "name": "GetRawTextureData",
-                        "excluded": true
-                    },
-                    {
-                        "name": "Resize$1",
                         "excluded": true
                     }
                 ]
@@ -15512,7 +15292,7 @@
                     },
                     {
                         "name": "OnRectTransformDimensionsChange",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "OnDidApplyAnimationProperties",
@@ -17679,10 +17459,6 @@
                     {
                         "name": "OnStateExit",
                         "excluded": false
-                    },
-                    {
-                        "name": "ValidateParameters",
-                        "excluded": false
                     }
                 ]
             },
@@ -19037,10 +18813,6 @@
                     {
                         "name": "DisableKeyword",
                         "excluded": true
-                    },
-                    {
-                        "name": "ComputeCRC",
-                        "excluded": true
                     }
                 ]
             },
@@ -19374,22 +19146,6 @@
                     },
                     {
                         "name": "Clone",
-                        "excluded": true
-                    },
-                    {
-                        "name": "SetUVs$3",
-                        "excluded": true
-                    },
-                    {
-                        "name": "SetUVs$4",
-                        "excluded": true
-                    },
-                    {
-                        "name": "SetUVs$5",
-                        "excluded": true
-                    },
-                    {
-                        "name": "SetTriangles$4",
                         "excluded": true
                     }
                 ]
@@ -19827,10 +19583,6 @@
                     {
                         "name": "Raycast",
                         "excluded": true
-                    },
-                    {
-                        "name": "init",
-                        "excluded": false
                     }
                 ]
             },
@@ -20213,14 +19965,6 @@
                     {
                         "name": "ResetCenterOfMass",
                         "excluded": true
-                    },
-                    {
-                        "name": "solverIterations#get",
-                        "excluded": true
-                    },
-                    {
-                        "name": "solverIterations#set",
-                        "excluded": true
                     }
                 ]
             },
@@ -20454,10 +20198,6 @@
                     },
                     {
                         "name": "GetBoneTransform",
-                        "excluded": true
-                    },
-                    {
-                        "name": "GetLayerName",
                         "excluded": true
                     }
                 ]
@@ -20739,10 +20479,6 @@
                     {
                         "name": "OnDidApplyAnimationProperties",
                         "excluded": true
-                    },
-                    {
-                        "name": "init",
-                        "excluded": false
                     }
                 ]
             },
@@ -21018,7 +20754,7 @@
                     },
                     {
                         "name": "targetDisplay#get",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "targetDisplay#set",
@@ -21318,7 +21054,7 @@
                     },
                     {
                         "name": "IsRebuildingLayout",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "IsRebuildingGraphics",
@@ -22232,36 +21968,6 @@
                 "instanceMethods": [
                     {
                         "name": "Attacking",
-                        "excluded": false
-                    }
-                ]
-            },
-            {
-                "className": "Luna.Unity.DTO.UnityEngine.Assets.Shader.Pass",
-                "staticMethods": [],
-                "instanceMethods": [
-                    {
-                        "name": "isGrabPass#get",
-                        "excluded": true
-                    }
-                ]
-            },
-            {
-                "className": "Luna.Unity.DTO.UnityEngine.Assets.Shader.Pass.Blending",
-                "staticMethods": [],
-                "instanceMethods": [
-                    {
-                        "name": "ctor",
-                        "excluded": false
-                    }
-                ]
-            },
-            {
-                "className": "Luna.Unity.DTO.UnityEngine.Assets.Shader.Pass.StencilOp",
-                "staticMethods": [],
-                "instanceMethods": [
-                    {
-                        "name": "ctor",
                         "excluded": false
                     }
                 ]
@@ -25348,6 +25054,1298 @@
                     },
                     {
                         "name": "Despawn",
+                        "excluded": false
+                    }
+                ]
+            },
+            {
+                "className": "System.Collections.Generic.Dictionary$2.ValueCollection.Enumerator",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "getDefaultValue",
+                        "excluded": true
+                    },
+                    {
+                        "name": "Current#get",
+                        "excluded": false
+                    },
+                    {
+                        "name": "System$Collections$IEnumerator$Current#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "init",
+                        "excluded": false
+                    },
+                    {
+                        "name": "$ctor1",
+                        "excluded": false
+                    },
+                    {
+                        "name": "ctor",
+                        "excluded": true
+                    },
+                    {
+                        "name": "Dispose",
+                        "excluded": false
+                    },
+                    {
+                        "name": "moveNext",
+                        "excluded": false
+                    },
+                    {
+                        "name": "System$Collections$IEnumerator$reset",
+                        "excluded": true
+                    },
+                    {
+                        "name": "getHashCode",
+                        "excluded": true
+                    },
+                    {
+                        "name": "equals",
+                        "excluded": true
+                    },
+                    {
+                        "name": "$clone",
+                        "excluded": true
+                    }
+                ]
+            },
+            {
+                "className": "System.Collections.Generic.List$1",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "init",
+                        "excluded": false
+                    },
+                    {
+                        "name": "IsCompatibleObject",
+                        "excluded": true
+                    },
+                    {
+                        "name": "Capacity#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "Capacity#set",
+                        "excluded": false
+                    },
+                    {
+                        "name": "Count#get",
+                        "excluded": false
+                    },
+                    {
+                        "name": "System$Collections$IList$IsFixedSize#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "System$Collections$Generic$ICollection$1$IsReadOnly#get",
+                        "excluded": false
+                    },
+                    {
+                        "name": "System$Collections$IList$IsReadOnly#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "System$Collections$ICollection$IsSynchronized#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "System$Collections$ICollection$SyncRoot#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "ctor",
+                        "excluded": false
+                    },
+                    {
+                        "name": "$ctor2",
+                        "excluded": false
+                    },
+                    {
+                        "name": "$ctor1",
+                        "excluded": true
+                    },
+                    {
+                        "name": "getItem",
+                        "excluded": false
+                    },
+                    {
+                        "name": "setItem",
+                        "excluded": true
+                    },
+                    {
+                        "name": "System$Collections$IList$getItem",
+                        "excluded": true
+                    },
+                    {
+                        "name": "System$Collections$IList$setItem",
+                        "excluded": true
+                    },
+                    {
+                        "name": "add",
+                        "excluded": false
+                    },
+                    {
+                        "name": "System$Collections$IList$add",
+                        "excluded": true
+                    },
+                    {
+                        "name": "AddRange",
+                        "excluded": false
+                    },
+                    {
+                        "name": "AsReadOnly",
+                        "excluded": true
+                    },
+                    {
+                        "name": "BinarySearch$2",
+                        "excluded": true
+                    },
+                    {
+                        "name": "BinarySearch",
+                        "excluded": true
+                    },
+                    {
+                        "name": "BinarySearch$1",
+                        "excluded": true
+                    },
+                    {
+                        "name": "clear",
+                        "excluded": false
+                    },
+                    {
+                        "name": "contains",
+                        "excluded": false
+                    },
+                    {
+                        "name": "System$Collections$IList$contains",
+                        "excluded": true
+                    },
+                    {
+                        "name": "ConvertAll",
+                        "excluded": true
+                    },
+                    {
+                        "name": "CopyTo",
+                        "excluded": true
+                    },
+                    {
+                        "name": "System$Collections$ICollection$copyTo",
+                        "excluded": true
+                    },
+                    {
+                        "name": "CopyTo$1",
+                        "excluded": true
+                    },
+                    {
+                        "name": "copyTo",
+                        "excluded": false
+                    },
+                    {
+                        "name": "EnsureCapacity",
+                        "excluded": false
+                    },
+                    {
+                        "name": "Exists",
+                        "excluded": true
+                    },
+                    {
+                        "name": "Find",
+                        "excluded": true
+                    },
+                    {
+                        "name": "FindAll",
+                        "excluded": true
+                    },
+                    {
+                        "name": "FindIndex$2",
+                        "excluded": true
+                    },
+                    {
+                        "name": "FindIndex$1",
+                        "excluded": true
+                    },
+                    {
+                        "name": "FindIndex",
+                        "excluded": true
+                    },
+                    {
+                        "name": "FindLast",
+                        "excluded": true
+                    },
+                    {
+                        "name": "FindLastIndex$2",
+                        "excluded": true
+                    },
+                    {
+                        "name": "FindLastIndex$1",
+                        "excluded": true
+                    },
+                    {
+                        "name": "FindLastIndex",
+                        "excluded": true
+                    },
+                    {
+                        "name": "ForEach",
+                        "excluded": true
+                    },
+                    {
+                        "name": "GetEnumerator",
+                        "excluded": false
+                    },
+                    {
+                        "name": "System$Collections$Generic$IEnumerable$1$GetEnumerator",
+                        "excluded": true
+                    },
+                    {
+                        "name": "System$Collections$IEnumerable$GetEnumerator",
+                        "excluded": true
+                    },
+                    {
+                        "name": "GetRange",
+                        "excluded": true
+                    },
+                    {
+                        "name": "indexOf",
+                        "excluded": false
+                    },
+                    {
+                        "name": "System$Collections$IList$indexOf",
+                        "excluded": true
+                    },
+                    {
+                        "name": "IndexOf",
+                        "excluded": true
+                    },
+                    {
+                        "name": "IndexOf$1",
+                        "excluded": true
+                    },
+                    {
+                        "name": "insert",
+                        "excluded": true
+                    },
+                    {
+                        "name": "System$Collections$IList$insert",
+                        "excluded": true
+                    },
+                    {
+                        "name": "InsertRange",
+                        "excluded": false
+                    },
+                    {
+                        "name": "LastIndexOf",
+                        "excluded": true
+                    },
+                    {
+                        "name": "LastIndexOf$1",
+                        "excluded": true
+                    },
+                    {
+                        "name": "LastIndexOf$2",
+                        "excluded": true
+                    },
+                    {
+                        "name": "remove",
+                        "excluded": false
+                    },
+                    {
+                        "name": "System$Collections$IList$remove",
+                        "excluded": true
+                    },
+                    {
+                        "name": "RemoveAll",
+                        "excluded": true
+                    },
+                    {
+                        "name": "removeAt",
+                        "excluded": false
+                    },
+                    {
+                        "name": "RemoveRange",
+                        "excluded": true
+                    },
+                    {
+                        "name": "Reverse",
+                        "excluded": true
+                    },
+                    {
+                        "name": "Reverse$1",
+                        "excluded": true
+                    },
+                    {
+                        "name": "Sort",
+                        "excluded": true
+                    },
+                    {
+                        "name": "Sort$1",
+                        "excluded": true
+                    },
+                    {
+                        "name": "Sort$3",
+                        "excluded": true
+                    },
+                    {
+                        "name": "Sort$2",
+                        "excluded": false
+                    },
+                    {
+                        "name": "ToArray",
+                        "excluded": false
+                    },
+                    {
+                        "name": "TrimExcess",
+                        "excluded": true
+                    },
+                    {
+                        "name": "TrueForAll",
+                        "excluded": true
+                    },
+                    {
+                        "name": "toJSON",
+                        "excluded": true
+                    }
+                ]
+            },
+            {
+                "className": "System.Text.RegularExpressions.Match",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "inherits",
+                        "excluded": false
+                    },
+                    {
+                        "name": "init",
+                        "excluded": true
+                    },
+                    {
+                        "name": "synchronized",
+                        "excluded": true
+                    },
+                    {
+                        "name": "ctor",
+                        "excluded": true
+                    },
+                    {
+                        "name": "getGroups",
+                        "excluded": true
+                    },
+                    {
+                        "name": "nextMatch",
+                        "excluded": true
+                    },
+                    {
+                        "name": "result",
+                        "excluded": true
+                    },
+                    {
+                        "name": "_isMatched",
+                        "excluded": true
+                    },
+                    {
+                        "name": "_addMatch",
+                        "excluded": true
+                    },
+                    {
+                        "name": "_tidy",
+                        "excluded": true
+                    },
+                    {
+                        "name": "_groupToStringImpl",
+                        "excluded": true
+                    },
+                    {
+                        "name": "_lastGroupToStringImpl",
+                        "excluded": true
+                    }
+                ]
+            },
+            {
+                "className": "System.Collections.HashHelpers",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "init",
+                        "excluded": false
+                    },
+                    {
+                        "name": "Combine",
+                        "excluded": true
+                    },
+                    {
+                        "name": "IsPrime",
+                        "excluded": true
+                    },
+                    {
+                        "name": "GetPrime",
+                        "excluded": false
+                    },
+                    {
+                        "name": "GetMinPrime",
+                        "excluded": true
+                    },
+                    {
+                        "name": "ExpandPrime",
+                        "excluded": false
+                    }
+                ]
+            },
+            {
+                "className": "LunaUnity.Objects.Registry",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "init",
+                        "excluded": false
+                    },
+                    {
+                        "name": "Put",
+                        "excluded": false
+                    },
+                    {
+                        "name": "Get",
+                        "excluded": false
+                    },
+                    {
+                        "name": "Release",
+                        "excluded": false
+                    },
+                    {
+                        "name": "TryGet",
+                        "excluded": false
+                    },
+                    {
+                        "name": "Has",
+                        "excluded": false
+                    },
+                    {
+                        "name": "Clone",
+                        "excluded": false
+                    },
+                    {
+                        "name": "AllowUpdate",
+                        "excluded": false
+                    }
+                ]
+            },
+            {
+                "className": "UnityEngine.Application",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "targetFrameRate#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "targetFrameRate#set",
+                        "excluded": true
+                    },
+                    {
+                        "name": "version#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "unityVersion#get",
+                        "excluded": false
+                    },
+                    {
+                        "name": "productName#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "buildID#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "companyName#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "lunaInitializationTime#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "lunaVersion#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "lunaSHA#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "packagesInfo#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "buildPlatform#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "loadedLevel#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "loadedLevelName#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "isEditor#get",
+                        "excluded": false
+                    },
+                    {
+                        "name": "absoluteURL#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "identifier#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "platform#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "internetReachability#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "installMode#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "init",
+                        "excluded": false
+                    },
+                    {
+                        "name": "OpenURL",
+                        "excluded": true
+                    },
+                    {
+                        "name": "LoadLevel",
+                        "excluded": true
+                    },
+                    {
+                        "name": "LoadLevel$1",
+                        "excluded": true
+                    },
+                    {
+                        "name": "LoadLevelAsync",
+                        "excluded": true
+                    },
+                    {
+                        "name": "LoadLevelAsync$1",
+                        "excluded": true
+                    },
+                    {
+                        "name": "CanStreamedLevelBeLoaded",
+                        "excluded": true
+                    },
+                    {
+                        "name": "CanStreamedLevelBeLoaded$1",
+                        "excluded": true
+                    },
+                    {
+                        "name": "RequestAdvertisingIdentifierAsync",
+                        "excluded": true
+                    },
+                    {
+                        "name": "ExternalCall",
+                        "excluded": true
+                    },
+                    {
+                        "name": "ExternalEval",
+                        "excluded": true
+                    },
+                    {
+                        "name": "Quit",
+                        "excluded": true
+                    },
+                    {
+                        "name": "SetStackTraceLogType",
+                        "excluded": true
+                    },
+                    {
+                        "name": "LogDebugInfo",
+                        "excluded": true
+                    }
+                ]
+            },
+            {
+                "className": "UnityEngine.Object$1",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "init",
+                        "excluded": false
+                    },
+                    {
+                        "name": "ctor",
+                        "excluded": false
+                    }
+                ]
+            },
+            {
+                "className": "UnityEngine.TextAsset",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "text#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "bytes#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "toString",
+                        "excluded": true
+                    }
+                ]
+            },
+            {
+                "className": "UnityEngine.GameObject",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "init",
+                        "excluded": false
+                    },
+                    {
+                        "name": "Find",
+                        "excluded": true
+                    },
+                    {
+                        "name": "FindWithTag",
+                        "excluded": true
+                    },
+                    {
+                        "name": "FindGameObjectWithTag",
+                        "excluded": true
+                    },
+                    {
+                        "name": "FindGameObjectsWithTag",
+                        "excluded": true
+                    },
+                    {
+                        "name": "op_Equality",
+                        "excluded": false
+                    },
+                    {
+                        "name": "op_Inequality",
+                        "excluded": false
+                    },
+                    {
+                        "name": "name#get",
+                        "excluded": false
+                    },
+                    {
+                        "name": "name#set",
+                        "excluded": false
+                    },
+                    {
+                        "name": "tag#get",
+                        "excluded": false
+                    },
+                    {
+                        "name": "tag#set",
+                        "excluded": true
+                    },
+                    {
+                        "name": "transform#get",
+                        "excluded": false
+                    },
+                    {
+                        "name": "gameObject#get",
+                        "excluded": false
+                    },
+                    {
+                        "name": "scene#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "activeSelf#get",
+                        "excluded": false
+                    },
+                    {
+                        "name": "activeInHierarchy#get",
+                        "excluded": false
+                    },
+                    {
+                        "name": "BeingDestroyed#get",
+                        "excluded": false
+                    },
+                    {
+                        "name": "layer#get",
+                        "excluded": false
+                    },
+                    {
+                        "name": "layer#set",
+                        "excluded": true
+                    },
+                    {
+                        "name": "Root#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "PrefabRoot#get",
+                        "excluded": false
+                    },
+                    {
+                        "name": "$ctor1",
+                        "excluded": false
+                    },
+                    {
+                        "name": "ctor",
+                        "excluded": true
+                    },
+                    {
+                        "name": "$ctor2",
+                        "excluded": false
+                    },
+                    {
+                        "name": "$ctor3",
+                        "excluded": true
+                    },
+                    {
+                        "name": "$ctor4",
+                        "excluded": true
+                    },
+                    {
+                        "name": "ParentToActiveSceneRoot",
+                        "excluded": false
+                    },
+                    {
+                        "name": "GetComponents",
+                        "excluded": false
+                    },
+                    {
+                        "name": "GetComponents$2",
+                        "excluded": false
+                    },
+                    {
+                        "name": "GetComponents$1",
+                        "excluded": true
+                    },
+                    {
+                        "name": "GetComponents$3",
+                        "excluded": false
+                    },
+                    {
+                        "name": "GetAllComponents",
+                        "excluded": true
+                    },
+                    {
+                        "name": "GetComponentsInChildren",
+                        "excluded": true
+                    },
+                    {
+                        "name": "GetComponentsInChildren$1",
+                        "excluded": true
+                    },
+                    {
+                        "name": "GetComponentInChildren",
+                        "excluded": true
+                    },
+                    {
+                        "name": "GetComponentInChildren$1",
+                        "excluded": false
+                    },
+                    {
+                        "name": "GetComponent",
+                        "excluded": false
+                    },
+                    {
+                        "name": "GetComponent$1",
+                        "excluded": false
+                    },
+                    {
+                        "name": "TryGetComponent",
+                        "excluded": true
+                    },
+                    {
+                        "name": "TryGetComponent$1",
+                        "excluded": true
+                    },
+                    {
+                        "name": "TryGetRectTransformOrTransform",
+                        "excluded": false
+                    },
+                    {
+                        "name": "IsPlaycanvasComponentUnityObjectOfType",
+                        "excluded": false
+                    },
+                    {
+                        "name": "GetComponentOfType",
+                        "excluded": false
+                    },
+                    {
+                        "name": "SetActive",
+                        "excluded": false
+                    },
+                    {
+                        "name": "GetComponentInParent",
+                        "excluded": true
+                    },
+                    {
+                        "name": "GetComponentInParents",
+                        "excluded": true
+                    },
+                    {
+                        "name": "GetComponentsInParent$1",
+                        "excluded": false
+                    },
+                    {
+                        "name": "GetComponentsInParent",
+                        "excluded": false
+                    },
+                    {
+                        "name": "GetComponentsInParent$2",
+                        "excluded": true
+                    },
+                    {
+                        "name": "BroadcastMessage",
+                        "excluded": true
+                    },
+                    {
+                        "name": "SendMessage",
+                        "excluded": true
+                    },
+                    {
+                        "name": "SendMessage$1",
+                        "excluded": true
+                    },
+                    {
+                        "name": "AddComponent$1",
+                        "excluded": false
+                    },
+                    {
+                        "name": "AddComponent",
+                        "excluded": false
+                    },
+                    {
+                        "name": "Infer3DColliderBounds",
+                        "excluded": true
+                    },
+                    {
+                        "name": "AddJoint",
+                        "excluded": true
+                    },
+                    {
+                        "name": "AddAsCustomComponent",
+                        "excluded": true
+                    },
+                    {
+                        "name": "AddAsPlaycanvasComponent",
+                        "excluded": true
+                    },
+                    {
+                        "name": "CompareTag",
+                        "excluded": false
+                    },
+                    {
+                        "name": "EnqueueDestroy",
+                        "excluded": true
+                    },
+                    {
+                        "name": "equals",
+                        "excluded": true
+                    },
+                    {
+                        "name": "getHashCode",
+                        "excluded": true
+                    }
+                ]
+            },
+            {
+                "className": "UnityEngine.SpaceAttribute",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "ctor",
+                        "excluded": true
+                    },
+                    {
+                        "name": "$ctor1",
+                        "excluded": false
+                    }
+                ]
+            },
+            {
+                "className": "UnityEngine.UI.Selectable",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "allSelectablesArray#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "allSelectableCount#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "allSelectables#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "init",
+                        "excluded": false
+                    },
+                    {
+                        "name": "AllSelectablesNoAlloc",
+                        "excluded": true
+                    },
+                    {
+                        "name": "RemoveInvalidSelectables",
+                        "excluded": true
+                    },
+                    {
+                        "name": "GetPointOnRectEdge",
+                        "excluded": true
+                    },
+                    {
+                        "name": "navigation#get",
+                        "excluded": false
+                    },
+                    {
+                        "name": "navigation#set",
+                        "excluded": true
+                    },
+                    {
+                        "name": "transition#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "transition#set",
+                        "excluded": true
+                    },
+                    {
+                        "name": "colors#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "colors#set",
+                        "excluded": true
+                    },
+                    {
+                        "name": "spriteState#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "spriteState#set",
+                        "excluded": true
+                    },
+                    {
+                        "name": "animationTriggers#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "animationTriggers#set",
+                        "excluded": true
+                    },
+                    {
+                        "name": "targetGraphic#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "targetGraphic#set",
+                        "excluded": true
+                    },
+                    {
+                        "name": "interactable#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "interactable#set",
+                        "excluded": true
+                    },
+                    {
+                        "name": "image#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "image#set",
+                        "excluded": true
+                    },
+                    {
+                        "name": "animator#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "currentSelectionState#get",
+                        "excluded": false
+                    },
+                    {
+                        "name": "ctor",
+                        "excluded": false
+                    },
+                    {
+                        "name": "$ctor1",
+                        "excluded": true
+                    },
+                    {
+                        "name": "Awake",
+                        "excluded": false
+                    },
+                    {
+                        "name": "OnCanvasGroupChanged",
+                        "excluded": false
+                    },
+                    {
+                        "name": "IsInteractable",
+                        "excluded": false
+                    },
+                    {
+                        "name": "OnDidApplyAnimationProperties",
+                        "excluded": true
+                    },
+                    {
+                        "name": "OnEnable",
+                        "excluded": false
+                    },
+                    {
+                        "name": "OnTransformParentChanged",
+                        "excluded": false
+                    },
+                    {
+                        "name": "OnSetProperty",
+                        "excluded": true
+                    },
+                    {
+                        "name": "OnDisable",
+                        "excluded": false
+                    },
+                    {
+                        "name": "InstantClearState",
+                        "excluded": false
+                    },
+                    {
+                        "name": "DoStateTransition",
+                        "excluded": false
+                    },
+                    {
+                        "name": "FindSelectable",
+                        "excluded": true
+                    },
+                    {
+                        "name": "Navigate",
+                        "excluded": true
+                    },
+                    {
+                        "name": "FindSelectableOnLeft",
+                        "excluded": true
+                    },
+                    {
+                        "name": "FindSelectableOnRight",
+                        "excluded": true
+                    },
+                    {
+                        "name": "FindSelectableOnUp",
+                        "excluded": true
+                    },
+                    {
+                        "name": "FindSelectableOnDown",
+                        "excluded": true
+                    },
+                    {
+                        "name": "OnMove",
+                        "excluded": true
+                    },
+                    {
+                        "name": "StartColorTween",
+                        "excluded": false
+                    },
+                    {
+                        "name": "DoSpriteSwap",
+                        "excluded": true
+                    },
+                    {
+                        "name": "TriggerAnimation",
+                        "excluded": true
+                    },
+                    {
+                        "name": "IsHighlighted",
+                        "excluded": true
+                    },
+                    {
+                        "name": "IsPressed",
+                        "excluded": true
+                    },
+                    {
+                        "name": "EvaluateAndTransitionToSelectionState",
+                        "excluded": false
+                    },
+                    {
+                        "name": "OnPointerDown",
+                        "excluded": false
+                    },
+                    {
+                        "name": "OnPointerUp",
+                        "excluded": false
+                    },
+                    {
+                        "name": "OnPointerEnter",
+                        "excluded": false
+                    },
+                    {
+                        "name": "OnPointerExit",
+                        "excluded": true
+                    },
+                    {
+                        "name": "OnSelect",
+                        "excluded": false
+                    },
+                    {
+                        "name": "OnDeselect",
+                        "excluded": true
+                    },
+                    {
+                        "name": "Select",
+                        "excluded": true
+                    }
+                ]
+            },
+            {
+                "className": "DrawLineTutorial",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "init",
+                        "excluded": false
+                    },
+                    {
+                        "name": "Update",
+                        "excluded": false
+                    },
+                    {
+                        "name": "StartDrawing",
+                        "excluded": true
+                    },
+                    {
+                        "name": "StopDrawing",
+                        "excluded": false
+                    },
+                    {
+                        "name": "GetCurrentPosition",
+                        "excluded": true
+                    }
+                ]
+            },
+            {
+                "className": "UnityEngine.Resolution",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "getDefaultValue",
+                        "excluded": true
+                    },
+                    {
+                        "name": "ctor",
+                        "excluded": false
+                    },
+                    {
+                        "name": "getHashCode",
+                        "excluded": true
+                    },
+                    {
+                        "name": "equals",
+                        "excluded": true
+                    },
+                    {
+                        "name": "$clone",
+                        "excluded": true
+                    }
+                ]
+            },
+            {
+                "className": "UnityEngine.Screen",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "width#get",
+                        "excluded": false
+                    },
+                    {
+                        "name": "height#get",
+                        "excluded": false
+                    },
+                    {
+                        "name": "safeArea#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "currentResolution#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "fullScreen#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "fullScreen#set",
+                        "excluded": true
+                    },
+                    {
+                        "name": "dpi#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "dpi#set",
+                        "excluded": true
+                    },
+                    {
+                        "name": "orientation#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "orientation#set",
+                        "excluded": true
+                    },
+                    {
+                        "name": "sleepTimeout#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "sleepTimeout#set",
+                        "excluded": true
+                    },
+                    {
+                        "name": "autorotateToLandscapeLeft#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "autorotateToLandscapeLeft#set",
+                        "excluded": true
+                    },
+                    {
+                        "name": "autorotateToLandscapeRight#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "autorotateToLandscapeRight#set",
+                        "excluded": true
+                    },
+                    {
+                        "name": "autorotateToPortrait#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "autorotateToPortrait#set",
+                        "excluded": true
+                    },
+                    {
+                        "name": "autorotateToPortraitUpsideDown#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "autorotateToPortraitUpsideDown#set",
+                        "excluded": true
+                    },
+                    {
+                        "name": "init",
                         "excluded": false
                     }
                 ]

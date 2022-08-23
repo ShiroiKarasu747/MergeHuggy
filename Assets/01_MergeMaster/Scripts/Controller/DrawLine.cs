@@ -4,20 +4,20 @@ using UnityEngine;
 
 public class DrawLine : MonoBehaviour
 {
-    [SerializeField] private float timeDelay;
-    [SerializeField] private GameObject linePref;
+    [SerializeField] protected float timeDelay;
+    [SerializeField] protected GameObject linePref;
     [HideInInspector] public List<Vector3> lstLinePoints;
     [HideInInspector] public LineRenderer currentLine;
     [Space(30f)]
     public Color lineColor;
     public float lineWidth;
-    float timer;
+    protected float timer;
     private void Start()
     {
         lstLinePoints = new List<Vector3>();
         timer = timeDelay;
     }
-    private void Update()
+    protected virtual void Update()
     {
         if (!GlobalInstance.Instance.gameManagerInstance.isEndGame)
         {
